@@ -14,11 +14,14 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_TEST = 3187507146U;
+        static const AkUniqueID PLAY_TRACK_1 = 2142648703U;
+        static const AkUniqueID STOP_TRACK_1 = 3077474657U;
     } // namespace EVENTS
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID JPP = 1065771773U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace BANKS
 
