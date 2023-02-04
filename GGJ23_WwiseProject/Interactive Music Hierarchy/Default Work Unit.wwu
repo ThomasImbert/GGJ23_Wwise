@@ -13,7 +13,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicPlaylistContainer Name="TRACK 1" ID="{38E3FB4D-99D8-418F-85C1-55A621B8A4D8}" ShortID="686445265">
+						<MusicPlaylistContainer Name="ROOTS ON THE ROOF" ID="{38E3FB4D-99D8-418F-85C1-55A621B8A4D8}" ShortID="686445265">
 							<PropertyList>
 								<Property Name="GridFrequencyPreset" Type="int16" Value="64"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
@@ -28,9 +28,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="TRACK 1 PA" ID="{B93C3456-3C53-4EF8-8C2E-FFC9260DFD05}" ShortID="527138535">
+								<MusicSegment Name="ROOTS ON THE ROOF PA" ID="{B93C3456-3C53-4EF8-8C2E-FFC9260DFD05}" ShortID="527138535">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="79986.0467569269"/>
+										<Property Name="EndPosition" Type="Real64" Value="117831.325301205"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -41,23 +41,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS " ID="{6CCB5D2C-807F-4FCE-8C5D-120B7F7BBE63}" ShortID="263028279">
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS" ID="{B8BDCE2F-B44D-4B4A-BE9D-F060AD683A51}" ShortID="63010361">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS " ID="{7430A9F5-E142-4CA2-956B-A47D9A0B6BC0}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{EDE821B0-C3F7-402A-ABB3-1CF04170417D}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS .wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS .wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="309556137"/>
+														<MediaID ID="757255039"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{DA1317E0-0B4E-46F5-B079-A7C48E3B91DF}">
+												<MusicTransition Name="Root" ID="{5BEBCFAB-572C-4F19-BB66-25E9CFA48C8B}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -68,18 +68,150 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{9BC22BD6-2442-4CB6-BC35-D729DE1C1187}">
+															<MusicTrackSequence Name="" ID="{E41C20BF-9951-4B52-B01E-ED8846D907BE}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS " ID="{4A42D524-EF3E-421C-AD02-4778B8B15850}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{955B833B-4567-4877-BDE8-DB7EB79DB316}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="24216.8674698795"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS " ID="{7430A9F5-E142-4CA2-956B-A47D9A0B6BC0}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{EDE821B0-C3F7-402A-ABB3-1CF04170417D}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{3D1712E4-E652-44BC-9BD7-1CBE0A9FD957}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>24.21687</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{ED07EF08-E8B7-407C-883B-84E910B17675}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>24.21687</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{FBF39AB5-0481-4D67-9970-F39719FEAD55}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>24.21687</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{6A7211F5-5E01-4C17-B13D-70B5DF44B7F0}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="47168.6746987951"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{EDE821B0-C3F7-402A-ABB3-1CF04170417D}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{0FCB197E-E9D9-4D26-B644-50D8F624FD9D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.16867</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{FCE89123-14E6-4FD7-970C-5815ACCF6476}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.16867</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{AD3183DE-963D-4986-AC5D-6CABF62CBF2B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.16867</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -91,23 +223,23 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR " ID="{66CBEC4F-11E1-4102-A767-95FFC157B8A3}" ShortID="931654681">
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR" ID="{87CDDA62-9B79-4BD6-BD88-AB316689593A}" ShortID="786529742">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR " ID="{BBCA551F-957A-49D8-BD41-58A0E63EE420}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR " ID="{BA7294FB-51E3-4DA5-B5D2-D9A443FB59BD}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR .wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR .wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="785958754"/>
+														<MediaID ID="795774841"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{76770561-2A0D-4CD3-BE5A-81040F23C3C9}">
+												<MusicTransition Name="Root" ID="{25C62D7D-0791-414B-8428-8D76687457DA}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -118,18 +250,150 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{CE754A33-CA20-456C-ADFD-884CA1DE1992}">
+															<MusicTrackSequence Name="" ID="{4CF58488-D965-43E1-8FE2-24DF888443F5}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR " ID="{01482E02-BB78-4D3F-88BB-8924B6280E06}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR " ID="{80AFB5CA-DC49-48A8-8D44-B9BEC8022AC8}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="28915.6626506024"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR " ID="{BBCA551F-957A-49D8-BD41-58A0E63EE420}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR " ID="{BA7294FB-51E3-4DA5-B5D2-D9A443FB59BD}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{DD902021-B816-4407-85E1-3B48D5E07A6C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>28.91566</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{FA169E28-A885-4A32-AEF6-E3F8961B41C1}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>28.91566</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{25193505-E719-4265-ADCA-0A800061AEF8}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>28.91566</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR " ID="{43505EC5-0591-4C6A-9DB5-A4356B81AB63}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="51325.3012048193"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR " ID="{BA7294FB-51E3-4DA5-B5D2-D9A443FB59BD}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{5AECB1F6-6ACB-4A65-8D98-29AE7FD2D3CD}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>51.3253</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{2DE04972-384C-4C27-B7A1-42B8029EDC7C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>51.3253</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{1D6F6400-D5FB-4EE6-A5EC-A888AF47A90D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>51.3253</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -141,23 +405,23 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT" ID="{FB737C37-0353-4A21-9DA5-451814984AEB}" ShortID="327676273">
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{C0A800D9-D014-4B25-A63A-F5A6C080D990}" ShortID="44544120">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT" ID="{A238BECB-01C1-4A48-9F9E-73047516ED42}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{7EB46D69-470E-4835-8F81-01D397BC0FD4}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT.wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="2523901"/>
+														<MediaID ID="6838777"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{03F8D6D9-FA88-4540-A27C-319554CD751D}">
+												<MusicTransition Name="Root" ID="{26864E25-FFE8-4848-93D5-9B2E4FFB11FE}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -168,18 +432,118 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{BB2A7CF3-8A87-4FC4-9654-2FDE7C91D335}">
+															<MusicTrackSequence Name="" ID="{594C1FDB-44BE-4D4E-97AA-2323845693BD}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT" ID="{2040A023-7811-4E37-87B0-FD2BF704272D}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{65C3B5B7-1A98-47D5-8503-DB818B8915B2}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
-																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="49879.5180722891"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT" ID="{A238BECB-01C1-4A48-9F9E-73047516ED42}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{7EB46D69-470E-4835-8F81-01D397BC0FD4}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{13660B08-696B-47DD-AF8D-1B3FBE745920}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>49.87952</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{0B3A7687-63D7-4CC3-A3FA-0EF067259A61}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>49.87952</XPos>
+																										<YPos>61.69722</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>51.23301</XPos>
+																										<YPos>63.70753</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>53.07239</XPos>
+																										<YPos>67.33677</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>54.66884</XPos>
+																										<YPos>56.44903</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>58.00052</XPos>
+																										<YPos>74.59527</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>60.22166</XPos>
+																										<YPos>58.26366</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>62.30397</XPos>
+																										<YPos>61.8929</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>65.73978</XPos>
+																										<YPos>49.19054</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>68.65502</XPos>
+																										<YPos>0.1957</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{CBA7DEFF-16B2-497D-A09F-9C07AF8BF04D}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>49.87952</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -191,23 +555,23 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO" ID="{5AC8A9DA-DFC9-43E9-BEBF-54BC5D50B2B2}" ShortID="591727297">
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{D215B5A8-A39E-4C81-8660-27ECF063E065}" ShortID="732709446">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO" ID="{C4092126-4BDF-4CDA-8A2F-6B11C919EF0D}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{EE3E161A-C88C-4513-B638-A2773058F505}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO.wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1052259110"/>
+														<MediaID ID="925900244"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{E844FCF6-6D2C-40D4-A312-596EB669AD33}">
+												<MusicTransition Name="Root" ID="{B50CF125-C413-47E9-B0DD-C14CDC615881}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -218,18 +582,160 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{35560922-E44C-436A-B45B-72E85EF2249F}">
+															<MusicTrackSequence Name="" ID="{41C62871-C0B5-48C7-AB85-0F5EEF540DBB}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO" ID="{7CE931EF-391D-4ED6-AC0C-955CA125907F}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{7D76D357-62CF-48F2-9CF0-4C2F8D9E1B4A}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="26024.0963855422"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO" ID="{C4092126-4BDF-4CDA-8A2F-6B11C919EF0D}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{EE3E161A-C88C-4513-B638-A2773058F505}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{40F7EC38-2E8C-458D-B9FD-76F5F55FB96C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>26.0241</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{04966209-DF2E-4A7A-B309-22E79C8D382C}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>38.1071</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>17.00553</XPos>
+																										<YPos>36.48817</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>20.64958</XPos>
+																										<YPos>31.0443</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>26.0241</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{2163CDA3-D657-4AA1-B7A1-C0ECD009AF6A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>26.0241</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{968857B5-8FB3-4E96-AF4C-3AF824E38C52}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="48433.734939759"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228915"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{EE3E161A-C88C-4513-B638-A2773058F505}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{EFD75363-59C6-4EAA-BBDE-43D00E097FC0}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>48.43373</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{BF2C36F3-A864-4A08-AACD-F2D671A3188F}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>48.43373</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{D94A7479-8EDB-40F7-AE91-1F4A4662F041}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>48.43373</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -241,23 +747,23 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER" ID="{022B8C3B-7121-4E2A-856D-C9DD0FB05E29}" ShortID="520507427">
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{459AEE00-569D-406A-90D5-DA15D82F5B73}" ShortID="683518955">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER" ID="{F21C1BFB-01F5-4D54-8FE8-37597C7F2629}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{F659AAB5-1663-410F-8586-926BD6F7E015}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER.wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="234125347"/>
+														<MediaID ID="249663418"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{EFB366C7-C6D5-42B3-B9B9-87EE2218EE2F}">
+												<MusicTransition Name="Root" ID="{B559DED7-3E38-4CAB-9C3B-BA478E7D0831}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -268,18 +774,150 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{E171DD41-2176-448B-8C10-2D7AC7B8E8F3}">
+															<MusicTrackSequence Name="" ID="{60A48595-D843-4F67-BD43-9B4F7F5CB761}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER" ID="{AA78E64B-4174-4556-B385-4848406C6A2E}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{24B721DA-0288-43EF-8E1C-FEFBEE3616A0}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="25658.2423221806"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER" ID="{F21C1BFB-01F5-4D54-8FE8-37597C7F2629}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{F659AAB5-1663-410F-8586-926BD6F7E015}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{F73F277F-C55E-40D6-AE10-30C2B7FEA9B3}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>25.65824</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{6B958FA1-75BE-4FC0-8F34-EEAE23599AE8}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>25.65824</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{4988A861-3710-42BA-A886-D2989FE0F0B6}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>25.65824</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{301ED9B0-EBFF-43AD-99B4-C647A93254D3}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="47710.843373494"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{F659AAB5-1663-410F-8586-926BD6F7E015}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{D6040A5B-C43D-438D-93B3-B1D9E5435805}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.71084</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{E3EF1D39-3671-4D43-BA5D-2AC6D495D6BE}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.71084</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{D63FD9A6-EA24-4CD5-B562-F0D62337EAEA}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.71084</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -291,23 +929,23 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD" ID="{9D51A84C-9C14-451B-9378-1EA29CA40502}" ShortID="124532588">
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{D253CDCF-1D81-428D-AA38-C0996512F9AD}" ShortID="977515695">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD" ID="{798D4BEE-6C5C-492B-A0D7-D1922B9CCF44}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{184D6B02-F77C-4C19-9998-3C6305F2E5B9}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD.wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="618109829"/>
+														<MediaID ID="270942030"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{D639FB5D-4C24-4007-AE71-20D54450A6D7}">
+												<MusicTransition Name="Root" ID="{F0B4A7F1-0185-42D3-98A1-AC86D2CD7BC8}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -318,18 +956,150 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{2DF7741D-4565-4F9B-A3FC-8B86A1A51BB4}">
+															<MusicTrackSequence Name="" ID="{EB9EF724-CF0B-4754-805E-71E43690E3D9}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD" ID="{E90909B5-29CB-456C-8810-6B8C227B963E}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{033F7160-773B-4ECE-877B-D4A0BCF440CF}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="23855.4216867469"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD" ID="{798D4BEE-6C5C-492B-A0D7-D1922B9CCF44}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{184D6B02-F77C-4C19-9998-3C6305F2E5B9}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{15291E8F-9680-452A-8C9A-7A49B2242253}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>23.85542</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{8EC7F476-9668-44B0-806C-FB702CBA2499}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>23.85542</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{7B308EC3-69A5-44F1-AABD-EADE88FE57DC}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>23.85542</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{CFDD31EF-66F5-4588-810F-413BB8B299ED}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="46468.5633289461"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23155.3103168979"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{184D6B02-F77C-4C19-9998-3C6305F2E5B9}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{FDC2D478-D6BB-4D80-A09A-BE2297ACAC64}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>46.46856</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{2A0BBDD5-012C-42FE-BB45-7E41D203199F}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>46.46856</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{A66229F5-AC8B-4927-A433-69EFF3DC9781}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>46.46856</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -358,7 +1128,7 @@
 													<MusicCue Name="Exit Cue" ID="{8310DD43-09A2-4E0C-A80D-E79581FF1751}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="70120.4819277108"/>
+															<Property Name="TimeMs" Type="Real64" Value="46987.9518072289"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -366,9 +1136,9 @@
 										</ObjectList>
 									</ObjectLists>
 								</MusicSegment>
-								<MusicSegment Name="TRACK 1 PB" ID="{84C9EEDC-AC3B-40BE-843A-68DEE890916C}" ShortID="465693678">
+								<MusicSegment Name="ROOTS ON THE ROOF PB" ID="{84C9EEDC-AC3B-40BE-843A-68DEE890916C}" ShortID="465693678">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="56146.5376344086"/>
+										<Property Name="EndPosition" Type="Real64" Value="60985.3244128739"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -379,23 +1149,30 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS " ID="{606C4B86-00E7-4ACE-BD89-6F14DBBDB257}" ShortID="115907128">
+										<MusicTrack Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS " ID="{CBDFCA70-F355-4196-A2DF-B7E39C385697}" ShortID="937941783">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS " ID="{9D75B814-2855-4674-80E5-C988523C96AF}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS " ID="{B3F1C01A-9D70-407A-8A78-D9FADD72AE67}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS .wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS .wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="536605961"/>
+														<MediaID ID="400686110"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS " ID="{F50A9DE9-BF97-45B2-B4AC-759ED2C16892}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS .wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="400686110"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{C511EA7E-C230-4EE5-BE62-75E9310A2DD1}">
+												<MusicTransition Name="Root" ID="{44B88C5D-DEC5-429E-AC87-22F397D3070C}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -406,18 +1183,150 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{23D1F788-DF78-4797-AB4B-A77A34BC2BA5}">
+															<MusicTrackSequence Name="" ID="{ECD2B42F-D789-4ACB-97D4-FAEE5BE0C16E}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS " ID="{FB33BFFA-5B9D-4F3A-BE2A-57A754E0C762}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS " ID="{CBB623D9-982C-48CA-997C-0B2D6A812D46}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="15180.7228915663"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS " ID="{9D75B814-2855-4674-80E5-C988523C96AF}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS " ID="{B3F1C01A-9D70-407A-8A78-D9FADD72AE67}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{6F2AD8BC-E305-40A9-9A4E-706488F25822}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{6C7B8335-FD10-4D95-A592-7D5004E3FB2B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{7DFD5391-5E12-46DB-8A33-6840724F5108}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS " ID="{FC77B7AB-EA4C-45D2-B19D-E77DB93379BD}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="38132.5301204819"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6506024097"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS " ID="{F50A9DE9-BF97-45B2-B4AC-759ED2C16892}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{6A9B8468-8E77-4691-9CBD-899804E9CC37}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>38.13253</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{A0D2CFA5-D33A-4440-B053-47B1180EDE10}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>38.13253</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{A8843F23-E2FE-461F-AA32-42D4B5CC6576}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>38.13253</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -429,23 +1338,30 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR " ID="{A5DA3A36-3088-4C22-9FD0-F18E0A57B22B}" ShortID="1043165624">
+										<MusicTrack Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR " ID="{045ACB0A-B433-4547-B563-9A3810EB6695}" ShortID="446022602">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR " ID="{4FD7B9BB-D44A-457C-99AF-F2BD7149FAD4}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR " ID="{E84CFEF3-256D-4ADF-B849-A393319A97B4}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR .wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR .wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="888208881"/>
+														<MediaID ID="415641626"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR " ID="{A4D52E98-B0C7-474F-A316-F729FABE8C29}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR .wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="415641626"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{49AC6468-6ED8-4C66-92D1-10E46B65C673}">
+												<MusicTransition Name="Root" ID="{CB2BBAF7-91D9-4C85-9C74-1138F89974EA}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -456,18 +1372,150 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{6E5AB520-8ACF-4B61-95F6-30E2388495A7}">
+															<MusicTrackSequence Name="" ID="{694DCD36-C566-4E30-BFBB-4DE2D084FF30}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR " ID="{6A3DBEF6-CD0C-4FC0-BFC8-DCA763509F7B}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR " ID="{183D82BA-FAB8-40E3-8993-8323D4ED09D1}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="15180.7228915663"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR " ID="{4FD7B9BB-D44A-457C-99AF-F2BD7149FAD4}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR " ID="{E84CFEF3-256D-4ADF-B849-A393319A97B4}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{F833D403-29D3-4839-BAAC-285FBA73504E}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{64BFEC03-FB2B-429A-B752-B595CEF5A7AC}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{04751E9B-7EAC-4215-B69D-A5F2902BBB1B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR " ID="{A140767B-259E-42A6-9BAB-2C07A6AB39A0}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="37897.1183409659"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6506024097"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR " ID="{A4D52E98-B0C7-474F-A316-F729FABE8C29}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{A607D722-A5BE-4897-9CB7-DA23D49CAD73}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{75C3C4B9-3803-4F39-AA17-6CDA5BDA74E6}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{6D1FA9E2-8E09-4204-BEA1-61C0F5EAA9B1}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -479,23 +1527,30 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT" ID="{B5F75D09-FBC3-46D7-A9A3-B7A14B00FA5C}" ShortID="671826416">
+										<MusicTrack Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT" ID="{71B0AF98-BCC7-47A9-A444-8627D3FAC669}" ShortID="3878">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT" ID="{6A68279E-9B09-4601-95E7-5E0269536B6E}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT" ID="{BC63FD2C-47E0-4068-B722-38EE08670DBA}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT.wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="159081183"/>
+														<MediaID ID="134368730"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT_01" ID="{381719C9-C32D-487F-A851-255B877A5637}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="134368730"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{21E789CC-CAE6-4F26-B98C-7A0BFD6A2DC3}">
+												<MusicTransition Name="Root" ID="{199D9231-318F-4A81-9873-A49828CD0C3E}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -506,18 +1561,200 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{0C11ABBF-C7AC-4548-9ECB-1C7C146FF764}">
+															<MusicTrackSequence Name="" ID="{1A031C32-1ED2-4ED1-92B9-A52B2938C50F}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT" ID="{08D99665-744D-4BEF-8182-729C9A85571E}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT" ID="{67A11092-2224-454F-BA0A-06775AEE30BD}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="15180.7228915663"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT" ID="{6A68279E-9B09-4601-95E7-5E0269536B6E}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT" ID="{BC63FD2C-47E0-4068-B722-38EE08670DBA}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{36B86D83-C29A-490D-8FE1-F12A02BB2978}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{B4004B20-E34C-406D-ADAF-E3E57B7CE13B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>15.23466</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>3.50776</XPos>
+																										<YPos>-0.11349</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>4.86249</XPos>
+																										<YPos>12.94479</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>6.09625</XPos>
+																										<YPos>39.06135</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>7.47517</XPos>
+																										<YPos>2.06289</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{D7F86964-4E71-4177-B77C-5FBD53404698}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT_01" ID="{214B9107-7D9A-451F-A4B4-048A63320E94}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="37897.1183409659"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6506024097"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM KOKOTT_01" ID="{381719C9-C32D-487F-A851-255B877A5637}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{05BB735F-F72F-4FA6-9EDD-83857A0DBB52}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{774477A4-1F9C-4E25-B6A2-98C2F609D7B5}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>39.71148</XPos>
+																										<YPos>23.82669</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>40.89686</XPos>
+																										<YPos>2.06289</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>42.75961</XPos>
+																										<YPos>30.35583</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>43.94499</XPos>
+																										<YPos>-0.11349</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>45.56582</XPos>
+																										<YPos>36.88497</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>46.94473</XPos>
+																										<YPos>12.94479</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{82AF3348-E1A5-4F2D-8042-9692AB30FBF1}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -529,23 +1766,30 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO" ID="{F5BE5509-F811-4BC9-89B1-3430AB97CE40}" ShortID="70592905">
+										<MusicTrack Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO" ID="{4574C76D-9130-454E-980F-D7D3BD6DDDDC}" ShortID="757489149">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO" ID="{FCA7DB21-9CFF-450B-925D-25358961E79C}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO" ID="{EF4B25EA-D117-41D0-B5EB-2C07F737B3F5}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO.wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="877169993"/>
+														<MediaID ID="451968940"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO_01" ID="{705F46C8-38AB-4FD6-AD6F-5730C04BEBB2}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="451968940"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{D4964A84-00A5-4119-BEAC-DB114C4CFBEB}">
+												<MusicTransition Name="Root" ID="{9FBBC1EB-00B4-4CAD-942B-70E6F8219746}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -556,18 +1800,150 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{0937F266-FA93-4E88-8E42-99D7E2648910}">
+															<MusicTrackSequence Name="" ID="{36A70424-265B-4F9B-AEC0-CD36618936C9}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO" ID="{9F998B9B-13F9-432A-96F8-B4B2B6B84B5E}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO" ID="{9994B4A8-90DE-46C1-8AC0-A4C8E8815B5B}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="15180.7228915663"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO" ID="{FCA7DB21-9CFF-450B-925D-25358961E79C}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO" ID="{EF4B25EA-D117-41D0-B5EB-2C07F737B3F5}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{E95604F9-88E3-4637-8502-087654D9A6A8}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{AA4295A8-BAEC-4F18-BF4A-305517DF0FFE}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{D2969A8D-6431-49C8-8F1A-E0AEBE43E870}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO_01" ID="{154C1B7C-1971-4037-BFF0-99F19721D76E}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="37897.1183409659"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6506024097"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM PIANO_01" ID="{705F46C8-38AB-4FD6-AD6F-5730C04BEBB2}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{DBACB88B-963F-4A24-9FDF-D3FB9CFFEC27}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{0975D5EF-578A-4630-BF12-2238478AC1F4}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{81DEDE72-CE7F-4A08-A80B-F959C57AD236}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -579,23 +1955,30 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER" ID="{4F3C8196-7220-40B5-BD31-D4D16A99DEBA}" ShortID="302755231">
+										<MusicTrack Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER" ID="{B65EB559-21C3-4497-8EC1-B18A216CF162}" ShortID="858140703">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER" ID="{89F00946-F9C1-4E3E-8CDA-EA0CAFC4FDD2}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER" ID="{6368533D-8A3B-49E4-86C1-0D669BD2D2EB}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER.wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="649930023"/>
+														<MediaID ID="56426120"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER_01" ID="{2B73F4F3-DD51-422F-B836-1980CE2E5C38}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="56426120"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{12C797D1-5135-41C8-989C-AA068AFC6C59}">
+												<MusicTransition Name="Root" ID="{83C2FA07-5049-4372-980B-1EDC9F0D5035}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -606,18 +1989,150 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{FC84CF2B-6796-4D56-A3C6-0C21BBEC4FA5}">
+															<MusicTrackSequence Name="" ID="{9F3CBCE2-F72D-4A6D-A291-C6DC43598432}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER" ID="{B5BAA815-2DC2-48BC-AA07-6466D199E78A}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER" ID="{A4B8AEAC-CB35-43CB-A865-A71BA6EB149A}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="15180.7228915663"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER" ID="{89F00946-F9C1-4E3E-8CDA-EA0CAFC4FDD2}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER" ID="{6368533D-8A3B-49E4-86C1-0D669BD2D2EB}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{4A02F1FE-FCFE-44EC-8D37-7F8C1B2D9B24}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{73C754C0-F33C-4D9E-A84D-D9B514059A2A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{8DCCB6F9-4B43-4432-8E4A-B6546986A299}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER_01" ID="{4BD5E1FF-F92F-4828-A229-0E0BA9E8723A}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="37897.1183409659"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6506024097"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNCLAVIER_01" ID="{2B73F4F3-DD51-422F-B836-1980CE2E5C38}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{DDE5DF4E-8601-4B5C-8E25-A9713A02744B}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{FA308F17-07C5-4F87-842C-A71146709546}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{8B759538-B9A1-4517-9FAB-0DEA8EC5B71E}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -629,23 +2144,30 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD" ID="{A33DF237-D4E6-4114-A53B-DF813F43258B}" ShortID="521497718">
+										<MusicTrack Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD" ID="{C7AF3907-6807-45BC-A4EA-314017AEB353}" ShortID="679249894">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD" ID="{7B46F2B0-67FB-4C8A-9C4E-150560BB5870}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD" ID="{4732F3F8-A3B6-4628-AB35-59EFD8F53C73}">
 													<Language>SFX</Language>
-													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD.wav</AudioFile>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="485017162"/>
+														<MediaID ID="714764727"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD_01" ID="{C431F0AC-3918-4D52-881E-49AE635DA102}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="714764727"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{862A05B6-0C76-4078-8D32-644161D87A3D}">
+												<MusicTransition Name="Root" ID="{9E009761-49CA-4CC0-9BA0-8DF0F372A4AB}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -656,18 +2178,150 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{A6F80951-A47A-4726-8636-0861B7A80AAD}">
+															<MusicTrackSequence Name="" ID="{DBAD5225-3D08-474D-85D6-A55F1CF9209C}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD" ID="{F91CEE89-C8FE-41C2-8172-470A7ED06FC6}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD" ID="{EB4C3BB6-6A61-4A3F-879D-FB1FC1BCAD93}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="15180.7228915663"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD" ID="{7B46F2B0-67FB-4C8A-9C4E-150560BB5870}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD" ID="{4732F3F8-A3B6-4628-AB35-59EFD8F53C73}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{EF21F64F-3EA0-4BFE-BA2B-D3BFD213EC08}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{311C5D43-B5F5-4BB1-B095-3633929F0182}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{A33AB17C-7617-4769-8CED-5E30390A53C5}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.18072</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD_01" ID="{CC89B364-E9D7-4844-8480-BE32C95BB8F4}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="37897.1183409659"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6506024097"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM SYNTH LEAD_01" ID="{C431F0AC-3918-4D52-881E-49AE635DA102}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{5EDF56FF-15C5-428B-BF80-F6D37069C3F6}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{159811B4-2807-4FB4-9DA0-CB9BA891683F}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{3F78A7D2-03BA-4FBE-B2E3-BD2F179CCB06}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>37.89712</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>55.66265</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -694,6 +2348,1201 @@
 											<Reference>
 												<Local>
 													<MusicCue Name="Exit Cue" ID="{879EF1CC-B8F6-4290-9A53-FACBA48FD950}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="23855.421686747"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="ROOTS ON THE ROOF PA'" ID="{AE26AC75-9BE5-48A6-9813-2CE2F211077C}" ShortID="685671565">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="117831.325301205"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS" ID="{B2535B3C-BB6D-4295-BC3C-146032A40C26}" ShortID="151314627">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{0EBCFFA7-83F6-4F15-AA98-E758372A021A}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS .wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="757255039"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CC1E7DB7-1F57-4537-91B1-C5D19F4E58A9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1D70D44A-A5A1-4981-B4E0-F38645E8BA93}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{8E4B31F1-06EF-4B15-A4C6-FAE4C81CE0B7}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="24216.8674698795"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{0EBCFFA7-83F6-4F15-AA98-E758372A021A}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{6265EB82-6138-41B0-8E03-0FE3F287E467}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>24.21687</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{458C7110-5654-471F-8F73-53C892B1FE2A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>24.21687</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{AC07DEF9-7FEF-4AD6-96DF-0C2D442C4B96}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>24.21687</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{7479AE7D-3427-466D-8089-4CD477DD131F}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="47168.6746987951"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{0EBCFFA7-83F6-4F15-AA98-E758372A021A}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{EF6075FC-82A5-41E5-A151-2C8D25B333AE}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.16867</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{EA882B03-552F-4630-B557-ACC24E0C8156}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.16867</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{9398ECB9-3C21-4AA2-98BC-4CAB98E26168}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.16867</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR" ID="{238E5A26-BB2B-480A-9DAB-83812DA10E93}" ShortID="139455218">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR " ID="{0E1C439D-F450-4957-8124-6AD1FC8A5EF8}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR .wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="795774841"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{34181E89-36DB-4CB3-86F4-D71C7122C595}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3DEEA331-0970-40D7-BBE2-3CA2A6A70414}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR " ID="{46513249-2161-4840-82BA-BA86F346627F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="28915.6626506024"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR " ID="{0E1C439D-F450-4957-8124-6AD1FC8A5EF8}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{DFD8946B-C2EF-4A7F-B103-6BB3FF83B9C4}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>28.91566</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{5175DE07-B88F-4AD2-901B-5603885C2AAC}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>28.91566</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{9B72D29B-2FAD-4F21-8CA8-94CADCFE9EC6}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>28.91566</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR " ID="{E1D91478-6ACF-4BCA-8EE2-B5E8EC628C2E}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="51325.3012048193"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM GTR " ID="{0E1C439D-F450-4957-8124-6AD1FC8A5EF8}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{3EA44746-2DEE-45A8-9CD7-1C500C9442D5}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>51.3253</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{54E5EED3-BDC3-4107-9406-A83EF2112E9A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>51.3253</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{041D0CA9-4B37-400C-B225-7B475C962AAC}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>51.3253</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{5C9D8C6B-FC4D-4B4A-A8A1-FFE98D633C93}" ShortID="358844362">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{D3C0AD0D-58BF-480C-8C6F-0A33A88258C5}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="6838777"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B508D297-AD27-4873-A67C-FFE589A373CA}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{ECDC27E9-4972-41CE-A463-A17D6AEFDB08}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{ECBA45A3-337E-4B26-B173-D1E7E60B34E2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="27184.8158204125"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{D3C0AD0D-58BF-480C-8C6F-0A33A88258C5}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{318F25B0-C4C8-44CE-BD18-2D68E9B305F8}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>27.18482</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{81B55B3F-DD30-42D2-A850-55A51EA9ECB4}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>44.76781</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>2.74384</XPos>
+																										<YPos>31.33747</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>6.35148</XPos>
+																										<YPos>17.90712</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>7.67259</XPos>
+																										<YPos>1.51082</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>15.8533</XPos>
+																										<YPos>1.51082</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>17.63171</XPos>
+																										<YPos>22.40247</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>21.64584</XPos>
+																										<YPos>19.41794</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>23.88157</XPos>
+																										<YPos>0.01856</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>27.18482</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{02096DDF-FE79-48A3-90B0-0D0D0A2DB830}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>27.18482</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{414AE0E1-DDE6-4151-8C70-8BF385A3252F}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="49156.6265060241"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{D3C0AD0D-58BF-480C-8C6F-0A33A88258C5}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{D00751A1-9A0C-4267-8213-02BBEF2A76F4}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>49.15663</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{FBABAC6F-8831-44BD-9F15-484AB12CCCCB}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>49.15663</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>54.4410588763269</XPos>
+																										<YPos>0</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>57.13409</XPos>
+																										<YPos>8.95356</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>61.91041</XPos>
+																										<YPos>25.36843</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>64.9083</XPos>
+																										<YPos>23.89472</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>67.70295</XPos>
+																										<YPos>8.97212</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>69.58299</XPos>
+																										<YPos>1.51082</YPos>
+																										<Flags>0</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>19.39939</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{714A36E0-5BA7-4391-BEB8-FAF92CF0C26F}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>49.15663</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{3849AFC3-34FC-4A89-9733-B841679D63D8}" ShortID="19554716">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{C63CD7FA-7EAB-4336-ACBC-C3B017BDB2C2}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="925900244"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{792CC0A1-2F07-4C22-9261-2912CE5E2632}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E89409E2-1600-47CF-8E0D-F321DB47C505}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{F7DD612D-20C1-47AC-B267-0E66E2803313}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="26024.0963855422"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{C63CD7FA-7EAB-4336-ACBC-C3B017BDB2C2}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{A562FEA9-898D-438F-9EAA-C178E0BEA488}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>26.0241</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{CDB64A05-E150-4AAC-8E0F-58440FC1019E}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>26.0241</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{8D6F2C69-6FC8-4492-B1D3-F09BA3D84975}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>26.0241</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{85535EA9-7484-4EE5-9F6D-85B8E764F858}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="48433.734939759"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228915"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM PIANO" ID="{C63CD7FA-7EAB-4336-ACBC-C3B017BDB2C2}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{EA1117C5-892D-43A7-99EF-0F2FD71BE544}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>48.43373</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{1243C4B6-8D8F-4C18-BDEE-7843D7E9B9F5}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>48.43373</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{3B266DD4-5DA1-4491-A216-257F982789D4}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>48.43373</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{5C7B7D9F-7048-4DA6-84A8-B2473A7E3BB6}" ShortID="674491245">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{EE56BF57-40C2-43E5-B0A9-665AD05AB7A2}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="249663418"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{72661465-A554-45CA-B072-9B4071D7C4CF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7B7ABC60-5E9E-4D65-B2F0-73D125801F5B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{C6F99D38-3EDE-4E51-BE7F-32AEAE69888E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="25658.2423221806"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{EE56BF57-40C2-43E5-B0A9-665AD05AB7A2}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{D7C6F77F-673A-42F7-83E6-BA91F2637C61}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>25.65824</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{14B931F2-7D04-42B5-BC32-74358F132C3A}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>25.65824</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{DCCF9795-E898-4C2B-8233-35581D1C0278}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>25.65824</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{A027DC64-C9E7-498B-A358-48D5DA2D9575}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="47710.843373494"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNCLAVIER" ID="{EE56BF57-40C2-43E5-B0A9-665AD05AB7A2}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{74740B5A-BD96-419B-A7DF-640F1179ECDD}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.71084</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{71F531CE-5185-4B47-B98C-494363F47BAE}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.71084</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{0362690E-BE24-4D50-9F80-DAEF333B3B43}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>47.71084</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{05C79EA2-C4BC-41C9-82FE-759A1BB5B5F2}" ShortID="443393038">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{02076419-39F3-4B8A-8DEC-0AA214F7B0CE}">
+													<Language>SFX</Language>
+													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="270942030"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C6DEFA17-5224-4B7D-B4C3-E521333900C4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1EAB2230-346C-40C9-A7F4-848024BBC017}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{C81B63B8-ACF9-4AAB-A914-7AC617FA63E8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="23855.4216867469"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{02076419-39F3-4B8A-8DEC-0AA214F7B0CE}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{A9A0C9C2-84AE-47F1-9AA1-7E922BF0F8C0}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>23.85542</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{974BCC4F-B93F-4258-9945-8E00CC3AC493}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>23.85542</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{DB9325ED-1720-4443-AF3E-44B93E47017F}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>23.85542</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{4837C157-6155-4802-808C-E4C3B8C8E175}">
+																					<PropertyList>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="46468.5633289461"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="-23155.3103168979"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM SYNTH LEAD" ID="{02076419-39F3-4B8A-8DEC-0AA214F7B0CE}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{39FB915F-B27D-4BAF-860E-7946436BD712}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>46.46856</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{7CAA8367-D0A0-4D90-B5FF-93A1C73E2284}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>46.46856</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{43F85FAF-4B82-4F07-BC07-A21946A7BEFE}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>46.46856</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>78.79518</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B4DC0BB2-F8CF-4079-A96D-BBFC4D4F67D2}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="722.89156626506"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D3160700-83DB-41B1-BFAD-3F3F1A50113D}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
 															<Property Name="TimeMs" Type="Real64" Value="46987.9518072289"/>
@@ -726,15 +3575,53 @@
 									<ChildrenList>
 										<MusicPlaylistItem Name="" ID="{706E736A-046A-48CC-88F4-4A42E2DDE7C1}" ShortID="966298547">
 											<PropertyList>
+												<Property Name="LoopCount" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{466DED27-F558-43DE-81CF-44552F1E586C}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																	<Property Name="Min" Type="Real64" Value="-1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="TRACK 1 PA" ID="{B93C3456-3C53-4EF8-8C2E-FFC9260DFD05}"/>
+											<SegmentRef Name="ROOTS ON THE ROOF PA" ID="{B93C3456-3C53-4EF8-8C2E-FFC9260DFD05}"/>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{0B1FC8CE-B236-43E2-9C32-4EAB9058B3B4}" ShortID="208610738">
+										<MusicPlaylistItem Name="" ID="{7F3705A2-7635-40BE-A460-DBC383B8F972}" ShortID="871532777">
 											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
 											</PropertyList>
-											<SegmentRef Name="TRACK 1 PB" ID="{84C9EEDC-AC3B-40BE-843A-68DEE890916C}"/>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{0B1FC8CE-B236-43E2-9C32-4EAB9058B3B4}" ShortID="208610738">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="ROOTS ON THE ROOF PB" ID="{84C9EEDC-AC3B-40BE-843A-68DEE890916C}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{D98CE76E-BFF9-4F03-9321-5345C240C898}" ShortID="112903088">
+													<PropertyList>
+														<Property Name="LoopCount" Type="int16" Value="2">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{8468CBF6-F1BF-4EAA-A433-08FE489D71AB}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="1"/>
+																			<Property Name="Min" Type="Real64" Value="-1"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="ROOTS ON THE ROOF PA'" ID="{AE26AC75-9BE5-48A6-9813-2CE2F211077C}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
