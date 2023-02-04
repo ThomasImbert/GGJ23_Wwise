@@ -3627,6 +3627,548 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="FLOORSCRAPER" ID="{7968DC70-3CD7-480F-ABFC-53DDC997F2D1}" ShortID="974673215">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="64"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="83"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="FLOORSCRAPER PA" ID="{FF67EE4B-9662-4959-A2AB-ABA035242172}" ShortID="822449709">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52694.0385708031"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="FLOORSCRAPER - 83 BPM - STEM DRONE" ID="{02BBD579-A523-4721-A92B-48092F0F4689}" ShortID="749409981">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FLOORSCRAPER - 83 BPM - STEM DRONE" ID="{84A073CB-BECB-404A-8173-E1345F3D2DC6}">
+													<Language>SFX</Language>
+													<AudioFile>FLOORSCRAPER - 83 BPM - STEM DRONE.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="764972239"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1D0617CA-0F13-40A2-8C08-E59E7201C780}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{FF121552-FA54-4C36-8999-8EB3A4469D8C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FLOORSCRAPER - 83 BPM - STEM DRONE" ID="{7C6BEB6F-4A5B-47E3-ADD3-4913C5DA284D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.2083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FLOORSCRAPER - 83 BPM - STEM DRONE" ID="{84A073CB-BECB-404A-8173-E1345F3D2DC6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FLOORSCRAPER - 83 BPM - STEM GTR " ID="{8C0255B6-22A7-4F74-9DA3-7448D4A0BC1D}" ShortID="952476940">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FLOORSCRAPER - 83 BPM - STEM GTR " ID="{6AC623CF-C9CB-416B-8B14-35014F2D2AF5}">
+													<Language>SFX</Language>
+													<AudioFile>FLOORSCRAPER - 83 BPM - STEM GTR .wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="889915326"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F0E78D7C-68E3-4F6A-A886-3AA26E0D6412}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{66C46D8E-0BA5-42BE-904E-4927207D6638}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FLOORSCRAPER - 83 BPM - STEM GTR " ID="{DEABEA70-8CD1-4397-B3AF-E9A327F5BB9F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.2083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FLOORSCRAPER - 83 BPM - STEM GTR " ID="{6AC623CF-C9CB-416B-8B14-35014F2D2AF5}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FLOORSCRAPER - 83 BPM - STEM PIANO" ID="{5F148A83-39C3-4B1E-969E-F0A34A8657E8}" ShortID="516151683">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FLOORSCRAPER - 83 BPM - STEM PIANO" ID="{4DC98F04-9B2D-4802-BE32-19C4C21503BD}">
+													<Language>SFX</Language>
+													<AudioFile>FLOORSCRAPER - 83 BPM - STEM PIANO.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="455239662"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{41ABBC11-A211-4F66-AC78-BDCC21D30493}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1BB47884-C002-4973-A908-18CB4A6676C5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FLOORSCRAPER - 83 BPM - STEM PIANO" ID="{63A90EDB-6581-4943-AE82-AB6FEFFBC64E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.2083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FLOORSCRAPER - 83 BPM - STEM PIANO" ID="{4DC98F04-9B2D-4802-BE32-19C4C21503BD}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER" ID="{19C4D534-42EF-40CC-9EBA-471E9025D653}" ShortID="795830811">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER" ID="{EA1C40F2-789C-4FE3-BBF6-3964F7AA52CD}">
+													<Language>SFX</Language>
+													<AudioFile>FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="359791965"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0D31D5B8-C703-4DE5-B77A-9A1C0B7504B1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4FC27882-E208-4C72-8C7A-24C728FF2BD7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER" ID="{9A46EB71-6F90-4ED8-90F3-121C63F0460D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.2083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FLOORSCRAPER - 83 BPM - STEM SYNCLAVIER" ID="{EA1C40F2-789C-4FE3-BBF6-3964F7AA52CD}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD" ID="{01C982D0-DB55-4BCC-A193-FEA93EBA2011}" ShortID="688700850">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD" ID="{E691A8C5-C460-43C1-8283-2272CE156222}">
+													<Language>SFX</Language>
+													<AudioFile>FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="517735802"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E306C83D-D61C-41EC-B4D3-78C6DC0121E2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{FF362805-7262-4351-BE8D-853328ACB678}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD" ID="{BF816AF9-002B-4B11-8AE2-DE4E2943EAD5}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52048.2083333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="FLOORSCRAPER - 83 BPM - STEM SYNTH LEAD" ID="{E691A8C5-C460-43C1-8283-2272CE156222}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{611462FE-61BA-46E3-B253-2F38E5275A8E}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="2891.56626506024"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1C2801FB-00AC-435D-B924-58DA836B4585}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="43373.4939759036"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{41EAB869-DBF6-460E-A51F-3581C2E82583}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{B13C4204-F06A-420E-A459-0410808D1808}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{7D6F6D03-FB1A-44C1-8881-D22BB781CF57}" ShortID="789444852"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="ELECTRICAL OUTLET GRAVEYARD" ID="{3D4D26A0-D6BE-4A41-AF00-17C8C436AA36}" ShortID="460291468">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="64"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="83"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="ELECTRICAL OUTLET GRAVEYARD PA" ID="{3E489D41-2440-43E0-9D26-53DBDB6286C1}" ShortID="486909895">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="31112.9038654618"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO" ID="{53126B74-4E58-4418-AAD3-84182175FDFA}" ShortID="710206101">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO" ID="{397B2EAA-E03D-4D88-8F78-FFA9B22C92A4}">
+													<Language>SFX</Language>
+													<AudioFile>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="811357329"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{099971D8-2F65-481E-AE2C-0DA7686C39A3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1C0939F9-F47B-453D-90D7-D2EE8D860C0D}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO" ID="{4610A000-973D-4DE6-A3CB-516079F3E5DF}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="28944.2291666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM PIANO" ID="{397B2EAA-E03D-4D88-8F78-FFA9B22C92A4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER" ID="{640514DA-834D-4FC0-936F-0347AA3C5612}" ShortID="123333853">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER" ID="{A20F3723-D9F1-42D3-8326-9CB852C0CE83}">
+													<Language>SFX</Language>
+													<AudioFile>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="103989039"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0188B18F-998C-48E0-8EE0-CFED276D69E1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{58A8E90D-EA14-44AD-B60E-C530799CCB86}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER" ID="{007BFD57-124C-4FED-B9B6-E31E07DB4B61}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="28944.2291666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNCLAVIER" ID="{A20F3723-D9F1-42D3-8326-9CB852C0CE83}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD" ID="{1BAA9A48-B215-4D67-AB68-C4CFD61CB987}" ShortID="68453056">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD" ID="{16513F1D-62EE-4B66-AC29-128457CAD256}">
+													<Language>SFX</Language>
+													<AudioFile>ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="463353919"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EC287AFE-3C26-42BB-B356-B37382A8F74C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AAD1CC08-79D2-43E2-979B-A343F5A1D03B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD" ID="{BABFADC8-C7CF-4541-AB6B-38995F6440F5}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="28944.2291666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="ELECTRICAL OUTLET GRAVEYARD - 83 BPM - STEM SYNTH LEAD" ID="{16513F1D-62EE-4B66-AC29-128457CAD256}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F31E0A3F-53C5-4B84-B2C6-643F746FBC39}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="1445.78313253012"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8D93591E-9E88-43CE-B97C-2BE39FDF75FA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="26024.0963855422"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{77BDA6F4-A93B-4DE1-AA3F-A1D0E641C7D8}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{FF20E2DB-FA1E-4AF6-B39D-1BB64F332AA7}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{C8F6F0D0-E7A1-4BE7-923C-C858685CFAA7}" ShortID="16920953"/>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{A96A50B2-28BA-4BE3-A57C-E7A0D694F499}">

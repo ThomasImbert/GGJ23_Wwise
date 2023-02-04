@@ -13,9 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_ROOTS = 2135754993U;
         static const AkUniqueID PLAY_TEST = 3187507146U;
-        static const AkUniqueID PLAY_TRACK_1 = 2142648703U;
-        static const AkUniqueID STOP_TRACK_1 = 3077474657U;
+        static const AkUniqueID STOP_ROOTS = 4220051187U;
     } // namespace EVENTS
 
     namespace BANKS
