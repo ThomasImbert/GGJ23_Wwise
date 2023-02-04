@@ -10,6 +10,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="JPP" ID="{4508081B-D5AD-4D22-BC02-A4046296360D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
