@@ -31,7 +31,7 @@
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\GGJ3_Koneksion_Unity\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">..\..\Game230203_GGJ23\GGJ3_Koneksion_Unity\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">..\..\GGJ23\GGJ3_Koneksion_Unity\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
@@ -9464,7 +9464,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Mastering Suite" PluginType="3" CompanyID="0" PluginID="186">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="186">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
