@@ -8,11 +8,11 @@
 ## ---------------- ##
 
 # project stuff
-WWiseProject/.cache/
-WWiseProject/*.prof
-WwiseProject/*_WwiseProject.*.validationcache
-WwiseProject/*_WwiseProject.*.wsettings
-WwiseProject/**/*.akd
+GGJ23_WwiseProject/.cache/
+GGJ23_WwiseProject/*.prof
+GGJ23_WwiseProject/*_WwiseProject.*.validationcache
+GGJ23_WwiseProject/*_WwiseProject.*.wsettings
+GGJ23_WwiseProject/**/*.akd
 
 # build stuff (unsure?)
 # Assets/Wwise/Deployment/Plugins/Windows/**/*.meta
