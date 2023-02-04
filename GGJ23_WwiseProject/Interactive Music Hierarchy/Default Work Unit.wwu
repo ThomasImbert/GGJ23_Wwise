@@ -1,6 +1,761 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}" SchemaVersion="110">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="MUSIC SWITCH" ID="{3FD60A3F-B9CE-4DB7-BF9C-9867BEC3D60C}" ShortID="624515031">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="TRACK 1" ID="{38E3FB4D-99D8-418F-85C1-55A621B8A4D8}" ShortID="686445265">
+							<PropertyList>
+								<Property Name="GridFrequencyPreset" Type="int16" Value="64"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="83"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="TRACK 1 PA" ID="{B93C3456-3C53-4EF8-8C2E-FFC9260DFD05}" ShortID="527138535">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="79986.0467569269"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS " ID="{6CCB5D2C-807F-4FCE-8C5D-120B7F7BBE63}" ShortID="263028279">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS " ID="{7430A9F5-E142-4CA2-956B-A47D9A0B6BC0}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS .wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="309556137"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DA1317E0-0B4E-46F5-B079-A7C48E3B91DF}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9BC22BD6-2442-4CB6-BC35-D729DE1C1187}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS " ID="{4A42D524-EF3E-421C-AD02-4778B8B15850}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM BASS " ID="{7430A9F5-E142-4CA2-956B-A47D9A0B6BC0}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR " ID="{66CBEC4F-11E1-4102-A767-95FFC157B8A3}" ShortID="931654681">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR " ID="{BBCA551F-957A-49D8-BD41-58A0E63EE420}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR .wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="785958754"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{76770561-2A0D-4CD3-BE5A-81040F23C3C9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{CE754A33-CA20-456C-ADFD-884CA1DE1992}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR " ID="{01482E02-BB78-4D3F-88BB-8924B6280E06}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM GTR " ID="{BBCA551F-957A-49D8-BD41-58A0E63EE420}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT" ID="{FB737C37-0353-4A21-9DA5-451814984AEB}" ShortID="327676273">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT" ID="{A238BECB-01C1-4A48-9F9E-73047516ED42}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="2523901"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{03F8D6D9-FA88-4540-A27C-319554CD751D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{BB2A7CF3-8A87-4FC4-9654-2FDE7C91D335}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT" ID="{2040A023-7811-4E37-87B0-FD2BF704272D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM KOKOTT" ID="{A238BECB-01C1-4A48-9F9E-73047516ED42}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO" ID="{5AC8A9DA-DFC9-43E9-BEBF-54BC5D50B2B2}" ShortID="591727297">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO" ID="{C4092126-4BDF-4CDA-8A2F-6B11C919EF0D}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1052259110"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E844FCF6-6D2C-40D4-A312-596EB669AD33}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{35560922-E44C-436A-B45B-72E85EF2249F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO" ID="{7CE931EF-391D-4ED6-AC0C-955CA125907F}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM PIANO" ID="{C4092126-4BDF-4CDA-8A2F-6B11C919EF0D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER" ID="{022B8C3B-7121-4E2A-856D-C9DD0FB05E29}" ShortID="520507427">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER" ID="{F21C1BFB-01F5-4D54-8FE8-37597C7F2629}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="234125347"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EFB366C7-C6D5-42B3-B9B9-87EE2218EE2F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E171DD41-2176-448B-8C10-2D7AC7B8E8F3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER" ID="{AA78E64B-4174-4556-B385-4848406C6A2E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNCLAVIER" ID="{F21C1BFB-01F5-4D54-8FE8-37597C7F2629}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD" ID="{9D51A84C-9C14-451B-9378-1EA29CA40502}" ShortID="124532588">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD" ID="{798D4BEE-6C5C-492B-A0D7-D1922B9CCF44}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="618109829"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D639FB5D-4C24-4007-AE71-20D54450A6D7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{2DF7741D-4565-4F9B-A3FC-8B86A1A51BB4}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD" ID="{E90909B5-29CB-456C-8810-6B8C227B963E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1875"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PA - 93 BPM - STEM SYNTH LEAD" ID="{798D4BEE-6C5C-492B-A0D7-D1922B9CCF44}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6F49C965-5D95-4DF1-8EF5-85D7FCABA857}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="722.89156626506"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{8310DD43-09A2-4E0C-A80D-E79581FF1751}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="70120.4819277108"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="TRACK 1 PB" ID="{84C9EEDC-AC3B-40BE-843A-68DEE890916C}" ShortID="465693678">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="56146.5376344086"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS " ID="{606C4B86-00E7-4ACE-BD89-6F14DBBDB257}" ShortID="115907128">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS " ID="{9D75B814-2855-4674-80E5-C988523C96AF}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS .wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="536605961"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C511EA7E-C230-4EE5-BE62-75E9310A2DD1}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{23D1F788-DF78-4797-AB4B-A77A34BC2BA5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS " ID="{FB33BFFA-5B9D-4F3A-BE2A-57A754E0C762}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM BASS " ID="{9D75B814-2855-4674-80E5-C988523C96AF}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR " ID="{A5DA3A36-3088-4C22-9FD0-F18E0A57B22B}" ShortID="1043165624">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR " ID="{4FD7B9BB-D44A-457C-99AF-F2BD7149FAD4}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR .wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="888208881"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{49AC6468-6ED8-4C66-92D1-10E46B65C673}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{6E5AB520-8ACF-4B61-95F6-30E2388495A7}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR " ID="{6A3DBEF6-CD0C-4FC0-BFC8-DCA763509F7B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM GTR " ID="{4FD7B9BB-D44A-457C-99AF-F2BD7149FAD4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT" ID="{B5F75D09-FBC3-46D7-A9A3-B7A14B00FA5C}" ShortID="671826416">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT" ID="{6A68279E-9B09-4601-95E7-5E0269536B6E}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="159081183"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{21E789CC-CAE6-4F26-B98C-7A0BFD6A2DC3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0C11ABBF-C7AC-4548-9ECB-1C7C146FF764}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT" ID="{08D99665-744D-4BEF-8182-729C9A85571E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM KOKOTT" ID="{6A68279E-9B09-4601-95E7-5E0269536B6E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO" ID="{F5BE5509-F811-4BC9-89B1-3430AB97CE40}" ShortID="70592905">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO" ID="{FCA7DB21-9CFF-450B-925D-25358961E79C}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="877169993"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D4964A84-00A5-4119-BEAC-DB114C4CFBEB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{0937F266-FA93-4E88-8E42-99D7E2648910}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO" ID="{9F998B9B-13F9-432A-96F8-B4B2B6B84B5E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM PIANO" ID="{FCA7DB21-9CFF-450B-925D-25358961E79C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER" ID="{4F3C8196-7220-40B5-BD31-D4D16A99DEBA}" ShortID="302755231">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER" ID="{89F00946-F9C1-4E3E-8CDA-EA0CAFC4FDD2}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="649930023"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{12C797D1-5135-41C8-989C-AA068AFC6C59}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{FC84CF2B-6796-4D56-A3C6-0C21BBEC4FA5}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER" ID="{B5BAA815-2DC2-48BC-AA07-6466D199E78A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNCLAVIER" ID="{89F00946-F9C1-4E3E-8CDA-EA0CAFC4FDD2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD" ID="{A33DF237-D4E6-4114-A53B-DF813F43258B}" ShortID="521497718">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD" ID="{7B46F2B0-67FB-4C8A-9C4E-150560BB5870}">
+													<Language>SFX</Language>
+													<AudioFile>KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="485017162"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{862A05B6-0C76-4078-8D32-644161D87A3D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A6F80951-A47A-4726-8636-0861B7A80AAD}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD" ID="{F91CEE89-C8FE-41C2-8172-470A7ED06FC6}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="55662.6666666667"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="KONEKSION - TRACK 1 PB - 93 BPM - STEM SYNTH LEAD" ID="{7B46F2B0-67FB-4C8A-9C4E-150560BB5870}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2A34F827-90FF-48A7-8189-013AF9615C58}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="722.89156626506"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{879EF1CC-B8F6-4290-9A53-FACBA48FD950}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="46987.9518072289"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{F8A2508B-7697-43D7-84A5-FA2380B1BC2B}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{DED5FCD4-1A4C-4887-8E86-9128F0F83BE4}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{B56F4F76-BA63-487D-9DC9-A91A914BA44A}" ShortID="882049749">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{706E736A-046A-48CC-88F4-4A42E2DDE7C1}" ShortID="966298547">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="TRACK 1 PA" ID="{B93C3456-3C53-4EF8-8C2E-FFC9260DFD05}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{0B1FC8CE-B236-43E2-9C32-4EAB9058B3B4}" ShortID="208610738">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="TRACK 1 PB" ID="{84C9EEDC-AC3B-40BE-843A-68DEE890916C}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{A96A50B2-28BA-4BE3-A57C-E7A0D694F499}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{1C29E7D9-7D3D-460C-AEFB-93DB41612F23}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
