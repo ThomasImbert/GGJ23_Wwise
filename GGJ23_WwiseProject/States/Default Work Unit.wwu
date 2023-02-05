@@ -15,6 +15,9 @@
 						<State Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
 						<State Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
 						<State Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+						<State Name="Sixth_Outlet" ID="{9FBBC00A-BD84-4A52-AE92-EC55326FEDAC}"/>
+						<State Name="Seventh_Outlet" ID="{FC2300F3-F423-4128-98CA-925F7E991468}"/>
+						<State Name="Eight_Outlet" ID="{86A351FB-4D02-444F-BBD5-6972FDE669B7}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>

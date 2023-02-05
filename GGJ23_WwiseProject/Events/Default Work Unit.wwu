@@ -74,6 +74,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_GRAVEYARD" ID="{1A9C4A87-8483-4CD7-8EE9-308D86BFA767}">
+					<ChildrenList>
+						<Action Name="" ID="{B038DEA5-49A8-453F-9C0E-F45C28F9E494}" ShortID="970441785">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ELECTRICAL OUTLET GRAVEYARD" ID="{3D4D26A0-D6BE-4A41-AF00-17C8C436AA36}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GRAVEYARD" ID="{391559E0-1135-43D5-AFAD-6BC8CCD5781D}">
+					<ChildrenList>
+						<Action Name="" ID="{51D659CD-112E-4548-8BB2-0AC3BDA2D179}" ShortID="506940681">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ELECTRICAL OUTLET GRAVEYARD" ID="{3D4D26A0-D6BE-4A41-AF00-17C8C436AA36}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
