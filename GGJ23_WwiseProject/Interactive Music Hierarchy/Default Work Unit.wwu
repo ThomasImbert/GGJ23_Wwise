@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+							<ObjectRef Name="MUSIC" ID="{50FCC495-A152-4E93-86C8-DDDA2705F363}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -130,7 +130,7 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{955B833B-4567-4877-BDE8-DB7EB79DB316}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS" ID="{955B833B-4567-4877-BDE8-DB7EB79DB316}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="24216.8674698795"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -201,7 +201,7 @@
 																		</Reference>
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{6A7211F5-5E01-4C17-B13D-70B5DF44B7F0}">
+																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS" ID="{6A7211F5-5E01-4C17-B13D-70B5DF44B7F0}">
 																					<PropertyList>
 																						<Property Name="BeginTrimOffset" Type="Real64" Value="47168.6746987951"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
@@ -968,7 +968,6 @@
 																		</Reference>
 																	</ObjectList>
 																</ObjectLists>
-																<ReferenceList/>
 															</MusicTrackSequence>
 														</Local>
 													</Reference>
@@ -6084,6 +6083,45 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{4FEB255F-1285-43A7-82CB-287CFCA0B48C}" ShortID="440712465">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Music_Volume_RTPC" ID="{17C4AFF4-6D3F-497C-9E15-A638EFEB1460}" WorkUnitID="{4BF43E30-2874-49BB-8A1E-D96C0AADB728}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{30212C94-B1BF-424C-A876-793728B4DF9E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 					<ArgumentList>
 						<ArgumentRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
 					</ArgumentList>

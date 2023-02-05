@@ -25,6 +25,640 @@
 						<ActiveSource Name="Sine" ID="{18A1A98D-EEE9-4992-8FE2-1BCA9B9E411F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="OUTLET" ID="{4F927073-D646-40FC-A6EA-16CA4E54BD6A}" ShortID="947812998">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{492186D7-4F65-4196-8A8A-14706C4BEC12}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="KONEKSION - OUTLET 5" ID="{B440CBED-E6C9-4C03-861A-410FC19EAE8F}" ShortID="909367615">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - OUTLET 5" ID="{B9565163-C1E2-4ECE-8BD9-B24DEE3F84A4}">
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - OUTLET 5.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="542861868"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - OUTLET 5" ID="{B9565163-C1E2-4ECE-8BD9-B24DEE3F84A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - OUTLET 4" ID="{CF14E5D5-6CBC-4E94-9785-CF3E21092248}" ShortID="461522309">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - OUTLET 4" ID="{41CB29FC-8829-4C6E-B8E6-2722788B22AC}">
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - OUTLET 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1046007714"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - OUTLET 4" ID="{41CB29FC-8829-4C6E-B8E6-2722788B22AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - OUTLET 3" ID="{1D14EB93-856C-4269-8B17-4B304A2F45BA}" ShortID="588312807">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - OUTLET 3" ID="{6B9B69A6-AE01-48F9-A8AD-7AF09E991B1E}">
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - OUTLET 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="511416885"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - OUTLET 3" ID="{6B9B69A6-AE01-48F9-A8AD-7AF09E991B1E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - OUTLET 1" ID="{345AA50F-B918-4F1F-ADBA-C77061978CF2}" ShortID="724440500">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - OUTLET 1" ID="{44A16FD6-ABF6-4D6B-A66F-F8E8DF8E7399}">
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - OUTLET 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="247202181"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - OUTLET 1" ID="{44A16FD6-ABF6-4D6B-A66F-F8E8DF8E7399}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - OUTLET 2" ID="{01ADC95A-1470-4022-B774-FE69D78BA279}" ShortID="294920692">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - OUTLET 2" ID="{CCB501C2-EFAB-43F8-8C3D-15201027FA88}">
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - OUTLET 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="236837832"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - OUTLET 2" ID="{CCB501C2-EFAB-43F8-8C3D-15201027FA88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - OUTLET 6" ID="{86270FB9-5AEB-431E-B95C-5A106D30EBCF}" ShortID="708233944">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - OUTLET 3" ID="{2433E584-3E24-4DE0-944F-14486FE0A161}">
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - OUTLET 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="511416885"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - OUTLET 3" ID="{2433E584-3E24-4DE0-944F-14486FE0A161}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - OUTLET 7" ID="{BAB0B606-4FEA-4EF0-866A-BE3EAAC5444B}" ShortID="1073310189">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - OUTLET 2" ID="{CBE873A8-CA08-4C19-AD50-E1868053F095}">
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - OUTLET 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="236837832"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - OUTLET 2" ID="{CBE873A8-CA08-4C19-AD50-E1868053F095}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - OUTLET 8" ID="{F8F98D09-DCEA-4CC6-AFE0-7EF7AA5C82B0}" ShortID="1007874248">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - OUTLET 1" ID="{D9721B1A-6BCA-4FA9-B1EA-7A8145EA861B}">
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - OUTLET 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="247202181"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - OUTLET 1" ID="{D9721B1A-6BCA-4FA9-B1EA-7A8145EA861B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{256042A4-DB9B-4810-9AB0-298E618FAE7D}" ShortID="797432538">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="SFX_Volume_RTPC" ID="{FFC7BEB2-E66B-48C6-A741-0DAB7BAFD6DC}" WorkUnitID="{4BF43E30-2874-49BB-8A1E-D96C0AADB728}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{79DE596D-5F99-43F5-9821-6EBD56A768E8}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<Playlist>
+						<ItemRef Name="KONEKSION - OUTLET 1" ID="{345AA50F-B918-4F1F-ADBA-C77061978CF2}"/>
+						<ItemRef Name="KONEKSION - OUTLET 2" ID="{01ADC95A-1470-4022-B774-FE69D78BA279}"/>
+						<ItemRef Name="KONEKSION - OUTLET 3" ID="{1D14EB93-856C-4269-8B17-4B304A2F45BA}"/>
+						<ItemRef Name="KONEKSION - OUTLET 4" ID="{CF14E5D5-6CBC-4E94-9785-CF3E21092248}"/>
+						<ItemRef Name="KONEKSION - OUTLET 5" ID="{B440CBED-E6C9-4C03-861A-410FC19EAE8F}"/>
+						<ItemRef Name="KONEKSION - OUTLET 6" ID="{86270FB9-5AEB-431E-B95C-5A106D30EBCF}"/>
+						<ItemRef Name="KONEKSION - OUTLET 7" ID="{BAB0B606-4FEA-4EF0-866A-BE3EAAC5444B}"/>
+						<ItemRef Name="KONEKSION - OUTLET 8" ID="{F8F98D09-DCEA-4CC6-AFE0-7EF7AA5C82B0}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<SwitchContainer Name="AMBIANCE SWITCH" ID="{454FB14C-9F06-48CD-93B0-D81DBBCBE1BA}" ShortID="1029141665">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Start" ID="{EDE3D42F-555D-48E9-8ABF-949BFADAD685}" WorkUnitID="{D08CDD0F-D995-4457-9CF8-FB2B7D70092F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMBIANCE" ID="{F0B7478B-9835-4292-A748-ED417E7FE936}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Amb_Switch" ID="{95D215B3-5119-4B16-9E7E-812319E73F06}" WorkUnitID="{D08CDD0F-D995-4457-9CF8-FB2B7D70092F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="KONEKSION - THIRD RECTANGLE" ID="{46E55CC9-0BB8-4C5A-877D-5D6BC35888E0}" ShortID="168349858">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - THIRD RECTANGLE_1" ID="{7FB775CF-0CCE-4496-BFDE-8314D1B4268C}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="4116.126"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.58689039242219"/>
+										<Property Name="LoopEnd" Type="Real64" Value="72.0801732070365"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - THIRD RECTANGLE_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="938547331"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - THIRD RECTANGLE_1" ID="{7FB775CF-0CCE-4496-BFDE-8314D1B4268C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - START" ID="{B121A00E-232F-4ABA-B02B-125EEB5E7D35}" ShortID="643152233">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - SD" ID="{9F90D9E0-FF93-4C5E-B209-2FCAF3FEB7EB}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1309.642"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.45909607577808"/>
+										<Property Name="LoopEnd" Type="Real64" Value="81.4849039242219"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - SD.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="109473593"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - SD" ID="{9F90D9E0-FF93-4C5E-B209-2FCAF3FEB7EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - SECOND RECTANGLE" ID="{E6E38655-33EA-40FB-988D-1E2177066C66}" ShortID="266308460">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - SECOND RECTANGLE" ID="{4DD7FE00-ABAD-4E5B-9EFB-CB863D3A6BCB}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="686.021"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.05827334235453"/>
+										<Property Name="LoopEnd" Type="Real64" Value="85.6025548037889"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - SECOND RECTANGLE.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="974856993"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - SECOND RECTANGLE" ID="{4DD7FE00-ABAD-4E5B-9EFB-CB863D3A6BCB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - FIRST RECTANGLE" ID="{B40ABCC2-A9D7-4C60-B959-60A82817A682}" ShortID="360388660">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - FIRST RECTANGLE" ID="{2E6E200E-9AA1-47C7-AD85-AC466F93F825}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="654.821"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.68357239512855"/>
+										<Property Name="LoopEnd" Type="Real64" Value="81.2604276048715"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - FIRST RECTANGLE.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="899524167"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - FIRST RECTANGLE" ID="{2E6E200E-9AA1-47C7-AD85-AC466F93F825}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - FIFTH RECTANGLE" ID="{717567E0-CC8E-4602-8C7A-04EA5116BC59}" ShortID="834261240">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - FIFTH RECTANGLE" ID="{62ACF2E0-8102-4CA6-B85C-F577D12FE7D6}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1623.306"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.71283231844835"/>
+										<Property Name="LoopEnd" Type="Real64" Value="72.4117549616599"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - FIFTH RECTANGLE.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="945526079"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - FIFTH RECTANGLE" ID="{62ACF2E0-8102-4CA6-B85C-F577D12FE7D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="KONEKSION - FOURTH RECTANGLE" ID="{D0C81F63-7F47-4ECF-891B-DE97364C4F47}" ShortID="318291108">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - FOURTH RECTANGLE" ID="{681B927F-6630-4D2D-8BFE-664B34F1A2A1}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="1221.726"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.40818403247632"/>
+										<Property Name="LoopEnd" Type="Real64" Value="76.4336671177267"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - FOURTH RECTANGLE.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="175787860"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - FOURTH RECTANGLE" ID="{681B927F-6630-4D2D-8BFE-664B34F1A2A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{E23753AB-1834-4EFC-B6B1-10BCB483166B}" ShortID="668784664">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Ambiance_Volume_RTPC" ID="{F8F19DF7-920C-4DA3-8DC6-7FB85F756FE3}" WorkUnitID="{4BF43E30-2874-49BB-8A1E-D96C0AADB728}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{C507DFB9-457D-4FCC-B288-62A20743881B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="KONEKSION - START" ID="{B121A00E-232F-4ABA-B02B-125EEB5E7D35}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="KONEKSION - SECOND RECTANGLE" ID="{E6E38655-33EA-40FB-988D-1E2177066C66}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="KONEKSION - FOURTH RECTANGLE" ID="{D0C81F63-7F47-4ECF-891B-DE97364C4F47}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="KONEKSION - FIRST RECTANGLE" ID="{B40ABCC2-A9D7-4C60-B959-60A82817A682}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="KONEKSION - THIRD RECTANGLE" ID="{46E55CC9-0BB8-4C5A-877D-5D6BC35888E0}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="KONEKSION - FIFTH RECTANGLE" ID="{717567E0-CC8E-4602-8C7A-04EA5116BC59}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeInTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>6</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Start" ID="{EDE3D42F-555D-48E9-8ABF-949BFADAD685}"/>
+								<ItemList>
+									<ItemRef Name="KONEKSION - START" ID="{B121A00E-232F-4ABA-B02B-125EEB5E7D35}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Fifth_Rectangle" ID="{BEFFF787-1252-4AC4-AB0F-595F634A0B47}"/>
+								<ItemList>
+									<ItemRef Name="KONEKSION - FIFTH RECTANGLE" ID="{717567E0-CC8E-4602-8C7A-04EA5116BC59}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="First_Rectangle" ID="{5816308C-BC2B-4F01-AFAC-F7DCF3A26DE3}"/>
+								<ItemList>
+									<ItemRef Name="KONEKSION - FIRST RECTANGLE" ID="{B40ABCC2-A9D7-4C60-B959-60A82817A682}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Second_Rectangle" ID="{A1EFABD2-888A-43A0-B52D-2C17F9F17928}"/>
+								<ItemList>
+									<ItemRef Name="KONEKSION - SECOND RECTANGLE" ID="{E6E38655-33EA-40FB-988D-1E2177066C66}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Third_Rectangle" ID="{98D1F8D7-364B-4173-84E8-0655A08B2C77}"/>
+								<ItemList>
+									<ItemRef Name="KONEKSION - THIRD RECTANGLE" ID="{46E55CC9-0BB8-4C5A-877D-5D6BC35888E0}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Fourth_Rectangle" ID="{DBAC92E1-B4B0-4E44-8CC5-EABD6F11D31C}"/>
+								<ItemList>
+									<ItemRef Name="KONEKSION - FOURTH RECTANGLE" ID="{D0C81F63-7F47-4ECF-891B-DE97364C4F47}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

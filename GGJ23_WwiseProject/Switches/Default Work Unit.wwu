@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D08CDD0F-D995-4457-9CF8-FB2B7D70092F}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{D08CDD0F-D995-4457-9CF8-FB2B7D70092F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D08CDD0F-D995-4457-9CF8-FB2B7D70092F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Amb_Switch" ID="{95D215B3-5119-4B16-9E7E-812319E73F06}">
+					<ChildrenList>
+						<Switch Name="Start" ID="{EDE3D42F-555D-48E9-8ABF-949BFADAD685}"/>
+						<Switch Name="First_Rectangle" ID="{5816308C-BC2B-4F01-AFAC-F7DCF3A26DE3}"/>
+						<Switch Name="Second_Rectangle" ID="{A1EFABD2-888A-43A0-B52D-2C17F9F17928}"/>
+						<Switch Name="Third_Rectangle" ID="{98D1F8D7-364B-4173-84E8-0655A08B2C77}"/>
+						<Switch Name="Fourth_Rectangle" ID="{DBAC92E1-B4B0-4E44-8CC5-EABD6F11D31C}"/>
+						<Switch Name="Fifth_Rectangle" ID="{BEFFF787-1252-4AC4-AB0F-595F634A0B47}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
