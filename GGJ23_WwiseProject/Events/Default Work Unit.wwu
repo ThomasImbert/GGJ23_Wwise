@@ -90,10 +90,80 @@
 						<Action Name="" ID="{51D659CD-112E-4548-8BB2-0AC3BDA2D179}" ShortID="506940681">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ELECTRICAL OUTLET GRAVEYARD" ID="{3D4D26A0-D6BE-4A41-AF00-17C8C436AA36}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_OUTLET" ID="{B4175DA0-1752-4914-BA05-E31B5F028653}">
+					<ChildrenList>
+						<Action Name="" ID="{936C515E-740F-4BFB-A27F-80D0484BD846}" ShortID="18593473">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OUTLET" ID="{4F927073-D646-40FC-A6EA-16CA4E54BD6A}" WorkUnitID="{032FF082-47A3-4AE8-AD1A-9B2929EBE4A3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AMBIANCE_SWITCH" ID="{632CB547-2A92-43B4-82EB-2BB2845165C0}">
+					<ChildrenList>
+						<Action Name="" ID="{F7C166A4-E5DE-4DD9-94B9-01726B863D2D}" ShortID="991565">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIANCE SWITCH" ID="{454FB14C-9F06-48CD-93B0-D81DBBCBE1BA}" WorkUnitID="{032FF082-47A3-4AE8-AD1A-9B2929EBE4A3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BUZZES" ID="{F91D3A51-F9F4-4610-B9BA-EEB055C9068A}">
+					<ChildrenList>
+						<Action Name="" ID="{65E2FABB-B917-4D78-B234-6C27950C2E9F}" ShortID="243174847">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BUZZES" ID="{CE41F37F-6084-4A9C-A631-D0736916DBBA}" WorkUnitID="{032FF082-47A3-4AE8-AD1A-9B2929EBE4A3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMBIANCE_SWITCH" ID="{6FDDC17A-04CB-4165-8CF3-2EB0B897289F}">
+					<ChildrenList>
+						<Action Name="" ID="{18BF8A20-3FCA-44A4-AF97-702F81632A69}" ShortID="109918575">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMBIANCE SWITCH" ID="{454FB14C-9F06-48CD-93B0-D81DBBCBE1BA}" WorkUnitID="{032FF082-47A3-4AE8-AD1A-9B2929EBE4A3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_BUZZES" ID="{610C1DE4-607E-4902-8CD7-371382EF9D54}">
+					<ChildrenList>
+						<Action Name="" ID="{423626D6-ECEB-437C-B93B-1DBA20B0F85C}" ShortID="891515657">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BUZZES" ID="{CE41F37F-6084-4A9C-A631-D0736916DBBA}" WorkUnitID="{032FF082-47A3-4AE8-AD1A-9B2929EBE4A3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

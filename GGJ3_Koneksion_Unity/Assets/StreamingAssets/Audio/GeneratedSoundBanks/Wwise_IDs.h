@@ -13,10 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMBIANCE_SWITCH = 1312697745U;
+        static const AkUniqueID PLAY_BUZZES = 2459940809U;
         static const AkUniqueID PLAY_FLOOR = 1473554808U;
         static const AkUniqueID PLAY_GRAVEYARD = 315336149U;
+        static const AkUniqueID PLAY_OUTLET = 2187493489U;
         static const AkUniqueID PLAY_ROOTS = 2135754993U;
         static const AkUniqueID PLAY_TEST = 3187507146U;
+        static const AkUniqueID STOP_AMBIANCE_SWITCH = 2478053135U;
+        static const AkUniqueID STOP_BUZZES = 3753166191U;
         static const AkUniqueID STOP_FLOOR = 3605768394U;
         static const AkUniqueID STOP_GRAVEYARD = 505928471U;
         static const AkUniqueID STOP_ROOTS = 4220051187U;
@@ -24,6 +29,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace GAMESTATE
+        {
+            static const AkUniqueID GROUP = 4091656514U;
+
+            namespace STATE
+            {
+                static const AkUniqueID MENU = 2607556080U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PLAY = 1256202815U;
+            } // namespace STATE
+        } // namespace GAMESTATE
+
         namespace MUSIC_STATE
         {
             static const AkUniqueID GROUP = 3826569560U;
@@ -70,6 +87,7 @@ namespace AK
         static const AkUniqueID MASTER_VOLUME_RTPC = 2585960002U;
         static const AkUniqueID MUSIC_VOLUME_RTPC = 3131952431U;
         static const AkUniqueID SFX_VOLUME_RTPC = 2654583815U;
+        static const AkUniqueID ZOOM_RTPC = 2323009266U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

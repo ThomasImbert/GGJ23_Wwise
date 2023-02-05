@@ -30,7 +30,7 @@
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>12</Value>
+								<Value>4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -220,45 +220,6 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{256042A4-DB9B-4810-9AB0-298E618FAE7D}" ShortID="797432538">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="ControlInput">
-												<ObjectRef Name="SFX_Volume_RTPC" ID="{FFC7BEB2-E66B-48C6-A741-0DAB7BAFD6DC}" WorkUnitID="{4BF43E30-2874-49BB-8A1E-D96C0AADB728}"/>
-											</Reference>
-											<Reference Name="Curve">
-												<Custom>
-													<Curve Name="" ID="{79DE596D-5F99-43F5-9821-6EBD56A768E8}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</RTPC>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
 					<Playlist>
 						<ItemRef Name="KONEKSION - OUTLET 1" ID="{345AA50F-B918-4F1F-ADBA-C77061978CF2}"/>
 						<ItemRef Name="KONEKSION - OUTLET 2" ID="{01ADC95A-1470-4022-B774-FE69D78BA279}"/>
@@ -275,7 +236,7 @@
 						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>-24</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -421,6 +382,11 @@
 						<Sound Name="KONEKSION - FIFTH RECTANGLE" ID="{717567E0-CC8E-4602-8C7A-04EA5116BC59}" ShortID="834261240">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -452,6 +418,11 @@
 						<Sound Name="KONEKSION - FOURTH RECTANGLE" ID="{D0C81F63-7F47-4ECF-891B-DE97364C4F47}" ShortID="318291108">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -481,45 +452,6 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{E23753AB-1834-4EFC-B6B1-10BCB483166B}" ShortID="668784664">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="ControlInput">
-												<ObjectRef Name="Ambiance_Volume_RTPC" ID="{F8F19DF7-920C-4DA3-8DC6-7FB85F756FE3}" WorkUnitID="{4BF43E30-2874-49BB-8A1E-D96C0AADB728}"/>
-											</Reference>
-											<Reference Name="Curve">
-												<Custom>
-													<Curve Name="" ID="{C507DFB9-457D-4FCC-B288-62A20743881B}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</RTPC>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
@@ -659,6 +591,491 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<BlendContainer Name="BUZZES" ID="{CE41F37F-6084-4A9C-A631-D0736916DBBA}" ShortID="830857242">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-21</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{34731A0C-4F98-4FF8-87F3-C9DB591E49A5}" ShortID="894144038">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{208BDF42-AD68-4ED0-ACA9-F342477E4F7D}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{492186D7-4F65-4196-8A8A-14706C4BEC12}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="BUZZ RANDOM" ID="{D9E0D824-3461-45F4-969C-90E7E0D96205}" ShortID="730929773">
+							<PropertyList>
+								<Property Name="OverrideEarlyReflections" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{67808EB4-B527-491F-BFAE-A64BB4BB75AB}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="379"/>
+													<Property Name="Min" Type="Real64" Value="-152"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{94ADCF82-2FEF-4157-88F6-356CE8434ABD}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{89FF1E76-29E5-41DE-A88F-ADA320CB5A15}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="KONEKSION - BUZZ 1" ID="{59E21A95-28A0-4013-8A81-269B067B1FA3}" ShortID="567402434">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KONEKSION - BUZZ 1" ID="{85018300-7FE9-4B48-A739-F43EE9FBB6D0}">
+											<Language>SFX</Language>
+											<AudioFile>KONEKSION - BUZZ 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="623688083"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="KONEKSION - BUZZ 1" ID="{85018300-7FE9-4B48-A739-F43EE9FBB6D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="KONEKSION - BUZZ 2" ID="{4DB99D73-5425-42F6-9481-B7F201047916}" ShortID="454165409">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KONEKSION - BUZZ 2" ID="{0CC87DA8-51CA-4B72-8322-E0351885A6DD}">
+											<Language>SFX</Language>
+											<AudioFile>KONEKSION - BUZZ 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="918219294"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="KONEKSION - BUZZ 2" ID="{0CC87DA8-51CA-4B72-8322-E0351885A6DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="KONEKSION - BUZZ 3" ID="{39F58174-D9B0-4EA3-A693-58C09AD1B811}" ShortID="630117533">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KONEKSION - BUZZ 3" ID="{0EF9E288-9475-486F-AC33-506403E30DBE}">
+											<Language>SFX</Language>
+											<AudioFile>KONEKSION - BUZZ 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="792188403"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="KONEKSION - BUZZ 3" ID="{0EF9E288-9475-486F-AC33-506403E30DBE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="KONEKSION - BUZZ 4" ID="{5005F85A-D115-426C-BE38-0FD23B1FC802}" ShortID="557340621">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KONEKSION - BUZZ 4" ID="{1CB9300F-039E-4713-B948-B7995444613A}">
+											<Language>SFX</Language>
+											<AudioFile>KONEKSION - BUZZ 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="431750729"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="KONEKSION - BUZZ 4" ID="{1CB9300F-039E-4713-B948-B7995444613A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="KONEKSION - BUZZ 5" ID="{DF830583-1FEE-4670-BB05-649186BDD37C}" ShortID="461156456">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KONEKSION - BUZZ 5" ID="{FD83AF22-6E62-4525-B535-DB7A1650D8DF}">
+											<Language>SFX</Language>
+											<AudioFile>KONEKSION - BUZZ 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="152322747"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="KONEKSION - BUZZ 5" ID="{FD83AF22-6E62-4525-B535-DB7A1650D8DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="KONEKSION - BUZZ 6" ID="{4D9A0069-F8EF-415E-8A3F-8BDDB9B3709E}" ShortID="738164313">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KONEKSION - BUZZ 6" ID="{B1BEEB7D-65F2-4582-AD2B-90C8860F5112}">
+											<Language>SFX</Language>
+											<AudioFile>KONEKSION - BUZZ 6.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1008671491"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="KONEKSION - BUZZ 6" ID="{B1BEEB7D-65F2-4582-AD2B-90C8860F5112}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="KONEKSION - BUZZ 7" ID="{A9EC85E1-9105-4566-98A7-3A1302590E3F}" ShortID="725994616">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="KONEKSION - BUZZ 7" ID="{AD2679A6-E3CA-45A1-99A1-75B8CAD7C0AD}">
+											<Language>SFX</Language>
+											<AudioFile>KONEKSION - BUZZ 7.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="764827914"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="KONEKSION - BUZZ 7" ID="{AD2679A6-E3CA-45A1-99A1-75B8CAD7C0AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{137557D0-67E7-460F-98CC-7231406D5A10}" ShortID="986814711">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SFX_Volume_RTPC" ID="{FFC7BEB2-E66B-48C6-A741-0DAB7BAFD6DC}" WorkUnitID="{4BF43E30-2874-49BB-8A1E-D96C0AADB728}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{9D400580-D058-45AC-9F0F-F13409182061}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<Sound Name="KONEKSION - CONTINUOUS BUZZ" ID="{6E585270-A9A8-46DF-9C1D-B7D25FBFA4C5}" ShortID="163915801">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{492186D7-4F65-4196-8A8A-14706C4BEC12}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="KONEKSION - CONTINUOUS BUZZ" ID="{F361CA9A-F8AA-4B7A-9091-233B6C1AF13C}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="717.81"/>
+										<Property Name="LoopBegin" Type="Real64" Value="4.31390527740189"/>
+										<Property Name="LoopEnd" Type="Real64" Value="14.4873396481732"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>KONEKSION - CONTINUOUS BUZZ.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="306036284"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="KONEKSION - CONTINUOUS BUZZ" ID="{F361CA9A-F8AA-4B7A-9091-233B6C1AF13C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{4B475E8A-428C-4168-B880-3B74EB434410}" ShortID="662289881">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Zoom_RTPC" ID="{B6C2F7BC-8163-4322-A757-AF019008D27F}" WorkUnitID="{4BF43E30-2874-49BB-8A1E-D96C0AADB728}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{DB108906-FB2E-4CAC-9DE4-813B4EC08BC7}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-18.79623</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>19.97085</XPos>
+																<YPos>-10.53616</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>39.9417</XPos>
+																<YPos>-7.55741</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>60.05831</XPos>
+																<YPos>-4.34094</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>79.15452</XPos>
+																<YPos>-1.26104</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-0.05888</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{7C4A67B5-4539-4F8F-B390-5DD0E3014508}" ShortID="177386693">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="OutputBusHighpass"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Zoom_RTPC" ID="{B6C2F7BC-8163-4322-A757-AF019008D27F}" WorkUnitID="{4BF43E30-2874-49BB-8A1E-D96C0AADB728}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{279E4346-DE8C-4C83-B0CC-AB0A2CD48AF1}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-79</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-1</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

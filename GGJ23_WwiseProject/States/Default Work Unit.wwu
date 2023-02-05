@@ -52,6 +52,13 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="GameState" ID="{A9396916-0505-442E-8282-D48E706560B4}">
+					<ChildrenList>
+						<State Name="None" ID="{9D27ADAC-887E-4CE7-AD09-13ED7483E411}"/>
+						<State Name="Play" ID="{11A1D3E4-C1E2-41AA-8120-15BC3A40AD8B}"/>
+						<State Name="Menu" ID="{5651C720-C1AD-4D95-9C44-18CCC5C8C80A}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

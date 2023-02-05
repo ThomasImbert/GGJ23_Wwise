@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{25FB2783-1B93-43BA-8643-E7704B83EB2F}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{25FB2783-1B93-43BA-8643-E7704B83EB2F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{25FB2783-1B93-43BA-8643-E7704B83EB2F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MIX" ID="{58EA4C16-3B85-4500-A70D-87B0A872D91A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Stop_BUZZES" ID="{610C1DE4-607E-4902-8CD7-371382EF9D54}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_AMBIANCE_SWITCH" ID="{6FDDC17A-04CB-4165-8CF3-2EB0B897289F}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMBIANCE_SWITCH" ID="{632CB547-2A92-43B4-82EB-2BB2845165C0}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_OUTLET" ID="{B4175DA0-1752-4914-BA05-E31B5F028653}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_BUZZES" ID="{F91D3A51-F9F4-4610-B9BA-EEB055C9068A}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_ROOTS" ID="{4A268D04-9D4A-49D5-B6F5-96FC13E8554A}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_FLOOR" ID="{4F84BC05-D082-4F6E-937F-CCCC8CB15A2E}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_GRAVEYARD" ID="{1A9C4A87-8483-4CD7-8EE9-308D86BFA767}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Eight_Outlet" ID="{86A351FB-4D02-444F-BBD5-6972FDE669B7}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Fifth_Rectangle" ID="{BEFFF787-1252-4AC4-AB0F-595F634A0B47}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
