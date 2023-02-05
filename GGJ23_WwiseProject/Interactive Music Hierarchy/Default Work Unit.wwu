@@ -37,7 +37,7 @@
 							<ChildrenList>
 								<MusicSegment Name="ROOTS ON THE ROOF PA" ID="{B93C3456-3C53-4EF8-8C2E-FFC9260DFD05}" ShortID="527138535">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="117831.325301205"/>
+										<Property Name="EndPosition" Type="Real64" Value="56489.1526567556"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -5051,6 +5051,13 @@
 											</ObjectLists>
 										</MusicTrack>
 										<MusicTrack Name="FLOORSCRAPER - 83 BPM - STEM PIANO" ID="{5F148A83-39C3-4B1E-969E-F0A34A8657E8}" ShortID="516151683">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
@@ -6073,7 +6080,8 @@
 										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
 										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
@@ -6088,7 +6096,9 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{DE748999-4349-401A-88FC-31799713FC2D}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="4"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -6096,7 +6106,9 @@
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{AD43D3D9-3D26-4B91-886B-766A1E1BF113}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-2"/>
+													<Property Name="FadeTime" Type="Real64" Value="4"/>
 												</PropertyList>
 											</MusicFade>
 										</DestinationFadeIn>
@@ -6105,8 +6117,10 @@
 								<MusicTransition Name="Transition" ID="{8E511053-F9EA-45BE-BE2B-B3D04230BB3A}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
-										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
@@ -6117,7 +6131,21 @@
 											<ObjectRef Name="FLOORSCRAPER" ID="{7968DC70-3CD7-480F-ABFC-53DDC997F2D1}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}"/>
 										</Reference>
 									</ReferenceList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{7599A525-34A3-49DA-A113-0B066A5D0966}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{6F42C494-0B71-4B4A-B56F-01650880C8E1}"/>
+										</DestinationFadeIn>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
@@ -6149,6 +6177,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="ELECTRICAL OUTLET GRAVEYARD" ID="{3D4D26A0-D6BE-4A41-AF00-17C8C436AA36}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

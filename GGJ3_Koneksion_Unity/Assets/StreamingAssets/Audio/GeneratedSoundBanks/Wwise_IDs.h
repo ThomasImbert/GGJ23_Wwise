@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_AMBIANCE_SWITCH = 1312697745U;
         static const AkUniqueID PLAY_BUZZES = 2459940809U;
         static const AkUniqueID PLAY_FLOOR = 1473554808U;
+        static const AkUniqueID PLAY_GAMESTART = 1497459184U;
         static const AkUniqueID PLAY_GRAVEYARD = 315336149U;
         static const AkUniqueID PLAY_OUTLET = 2187493489U;
         static const AkUniqueID PLAY_ROOTS = 2135754993U;

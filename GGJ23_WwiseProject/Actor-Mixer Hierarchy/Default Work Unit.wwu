@@ -236,7 +236,7 @@
 						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-24</Value>
+								<Value>-19</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -305,6 +305,11 @@
 										<Property Name="LoopBegin" Type="Real64" Value="1.45909607577808"/>
 										<Property Name="LoopEnd" Type="Real64" Value="81.4849039242219"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>KONEKSION - SD.wav</AudioFile>
@@ -384,7 +389,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -420,7 +425,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>1</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -596,7 +601,7 @@
 						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-21</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -1076,6 +1081,35 @@
 						</ObjectList>
 					</ObjectLists>
 				</BlendContainer>
+				<Sound Name="Switch_GameStart" ID="{8C4E9535-110D-43D2-AB61-E79DD931D831}" ShortID="825396334">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7644BFB8-C90B-4115-B087-A9674B4194F4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{492186D7-4F65-4196-8A8A-14706C4BEC12}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="KONEKSION_-_BUTTON" ID="{8CB0A1C3-32AE-4828-A6AC-03C1FA2DE882}">
+							<Language>SFX</Language>
+							<AudioFile>KONEKSION_-_BUTTON.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="952264231"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="KONEKSION_-_BUTTON" ID="{8CB0A1C3-32AE-4828-A6AC-03C1FA2DE882}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

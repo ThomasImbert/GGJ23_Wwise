@@ -16,20 +16,27 @@
 				</Event>
 				<Event Name="Play_ROOTS" ID="{4A268D04-9D4A-49D5-B6F5-96FC13E8554A}">
 					<ChildrenList>
-						<Action Name="" ID="{6A0E33B7-12EE-4E25-822B-C7B578CFB818}" ShortID="400064724">
+						<Action Name="" ID="{36405749-FDA9-4D18-8079-3835477DEA62}" ShortID="283861003">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}" WorkUnitID="{A8567A05-5EA1-4161-BD6E-DA6AA62586F4}"/>
+									<ObjectRef Name="MUSIC SWITCH" ID="{3FD60A3F-B9CE-4DB7-BF9C-9867BEC3D60C}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{36405749-FDA9-4D18-8079-3835477DEA62}" ShortID="283861003">
+						<Action Name="" ID="{7A68ABE6-F352-42F6-9C1B-9E101D2E4AE4}" ShortID="587325757">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="36"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+								<Property Name="SeekTime" Type="Real64" Value="1"/>
+								<Property Name="SeekType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ROOTS ON THE ROOF" ID="{38E3FB4D-99D8-418F-85C1-55A621B8A4D8}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}"/>
+									<ObjectRef Name="MUSIC SWITCH" ID="{3FD60A3F-B9CE-4DB7-BF9C-9867BEC3D60C}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -116,6 +123,9 @@
 				<Event Name="Play_AMBIANCE_SWITCH" ID="{632CB547-2A92-43B4-82EB-2BB2845165C0}">
 					<ChildrenList>
 						<Action Name="" ID="{F7C166A4-E5DE-4DD9-94B9-01726B863D2D}" ShortID="991565">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AMBIANCE SWITCH" ID="{454FB14C-9F06-48CD-93B0-D81DBBCBE1BA}" WorkUnitID="{032FF082-47A3-4AE8-AD1A-9B2929EBE4A3}"/>
@@ -127,6 +137,9 @@
 				<Event Name="Play_BUZZES" ID="{F91D3A51-F9F4-4610-B9BA-EEB055C9068A}">
 					<ChildrenList>
 						<Action Name="" ID="{65E2FABB-B917-4D78-B234-6C27950C2E9F}" ShortID="243174847">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="4.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="BUZZES" ID="{CE41F37F-6084-4A9C-A631-D0736916DBBA}" WorkUnitID="{032FF082-47A3-4AE8-AD1A-9B2929EBE4A3}"/>
@@ -164,6 +177,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="BUZZES" ID="{CE41F37F-6084-4A9C-A631-D0736916DBBA}" WorkUnitID="{032FF082-47A3-4AE8-AD1A-9B2929EBE4A3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GameStart" ID="{B7C03BA7-1308-4AB4-9665-1C255A3D11D7}">
+					<ChildrenList>
+						<Action Name="" ID="{2BD60369-2567-437A-A2E7-36F0791DF1F4}" ShortID="243120883">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Switch_GameStart" ID="{8C4E9535-110D-43D2-AB61-E79DD931D831}" WorkUnitID="{032FF082-47A3-4AE8-AD1A-9B2929EBE4A3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

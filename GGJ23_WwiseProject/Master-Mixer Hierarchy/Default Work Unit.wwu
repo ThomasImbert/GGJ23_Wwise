@@ -17,7 +17,7 @@
 										<Local>
 											<RTPC Name="" ID="{8D4D929D-B5A2-4245-AD67-1434AF13602E}" ShortID="952662700">
 												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
 												</PropertyList>
 												<ReferenceList>
 													<Reference Name="ControlInput">
@@ -58,7 +58,7 @@
 										<Local>
 											<RTPC Name="" ID="{25B81462-7464-44C9-86B8-58A36311845F}" ShortID="872717769">
 												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
 												</PropertyList>
 												<ReferenceList>
 													<Reference Name="ControlInput">
@@ -99,7 +99,7 @@
 										<Local>
 											<RTPC Name="" ID="{A15E6D4C-4B70-482A-A3A5-E7303FC2D02F}" ShortID="296221006">
 												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+													<Property Name="PropertyName" Type="string" Value="BusVolume"/>
 												</PropertyList>
 												<ReferenceList>
 													<Reference Name="ControlInput">
@@ -140,7 +140,7 @@
 								<Local>
 									<RTPC Name="" ID="{B06E961A-9845-4CA5-BAAA-8EFDE541B2E1}" ShortID="116666224">
 										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="OutputBusVolume"/>
+											<Property Name="PropertyName" Type="string" Value="BusVolume"/>
 										</PropertyList>
 										<ReferenceList>
 											<Reference Name="ControlInput">

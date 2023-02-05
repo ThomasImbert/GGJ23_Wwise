@@ -6,41 +6,55 @@
 				<SoundcasterSession Name="MIX" ID="{58EA4C16-3B85-4500-A70D-87B0A872D91A}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Stop_BUZZES" ID="{610C1DE4-607E-4902-8CD7-371382EF9D54}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<ObjectRef Name="Play_ROOTS" ID="{4A268D04-9D4A-49D5-B6F5-96FC13E8554A}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_AMBIANCE_SWITCH" ID="{6FDDC17A-04CB-4165-8CF3-2EB0B897289F}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<ObjectRef Name="Play_FLOOR" ID="{4F84BC05-D082-4F6E-937F-CCCC8CB15A2E}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_GRAVEYARD" ID="{1A9C4A87-8483-4CD7-8EE9-308D86BFA767}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_AMBIANCE_SWITCH" ID="{6FDDC17A-04CB-4165-8CF3-2EB0B897289F}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_BUZZES" ID="{610C1DE4-607E-4902-8CD7-371382EF9D54}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_AMBIANCE_SWITCH" ID="{632CB547-2A92-43B4-82EB-2BB2845165C0}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
-							<Position X="1" Y="0"/>
+							<Position X="4" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_OUTLET" ID="{B4175DA0-1752-4914-BA05-E31B5F028653}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
-							<Position X="1" Y="1"/>
+							<Position X="4" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_BUZZES" ID="{F91D3A51-F9F4-4610-B9BA-EEB055C9068A}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
-							<Position X="2" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_ROOTS" ID="{4A268D04-9D4A-49D5-B6F5-96FC13E8554A}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
-							<Position X="2" Y="1"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_FLOOR" ID="{4F84BC05-D082-4F6E-937F-CCCC8CB15A2E}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
-							<Position X="3" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_GRAVEYARD" ID="{1A9C4A87-8483-4CD7-8EE9-308D86BFA767}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}"/>
-							<Position X="3" Y="1"/>
+							<Position X="4" Y="2"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Zoom_RTPC" ID="{B6C2F7BC-8163-4322-A757-AF019008D27F}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Master_Volume_RTPC" ID="{729BAB9F-1615-4807-81C4-5B8EB3A194C7}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Ambiance_Volume_RTPC" ID="{F8F19DF7-920C-4DA3-8DC6-7FB85F756FE3}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Eight_Outlet" ID="{86A351FB-4D02-444F-BBD5-6972FDE669B7}"/>
+						<CurrentStateRef Name="Menu" ID="{5651C720-C1AD-4D95-9C44-18CCC5C8C80A}"/>
+						<CurrentStateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Fifth_Rectangle" ID="{BEFFF787-1252-4AC4-AB0F-595F634A0B47}"/>
