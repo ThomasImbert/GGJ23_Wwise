@@ -23,15 +23,18 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateSoundBankJSON" Type="bool" Value="True"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 				<Property Name="SoundBankAllowExceedingSB" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\GGJ3_Koneksion_Unity\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
+				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>
+				<Property Name="SoundBankGeneratePrintPath" Type="bool" Value="True"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\Game230203_GGJ23\GGJ3_Koneksion_Unity\Assets\StreamingAssets\Audio\GeneratedSoundbanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">..\..\Game230203_GGJ23\GGJ3_Koneksion_Unity\Assets\StreamingAssets\Audio\Windows\</Value>
+						<Value Platform="Windows">..\..\Game230203_GGJ23\GGJ3_Koneksion_Unity\Assets\StreamingAssets\Audio\GeneratedSoundbanks\Windows\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">

@@ -3,27 +3,9 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{895340C4-4EE9-47BE-ABF2-6188999B774E}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Test" ID="{0350E90B-BB20-4CAB-9259-E71BA90F3129}">
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="JPP" ID="{4508081B-D5AD-4D22-BC02-A4046296360D}">
+				<SoundBank Name="SBK_Main" ID="{A4B00226-8A60-4711-AFCF-F8236F43A073}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Stop_AMBIANCE_SWITCH" ID="{6FDDC17A-04CB-4165-8CF3-2EB0B897289F}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_ROOTS" ID="{5A52F324-5B20-4367-A114-D3B1185D8ABB}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_AMBIANCE_SWITCH" ID="{632CB547-2A92-43B4-82EB-2BB2845165C0}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_GRAVEYARD" ID="{391559E0-1135-43D5-AFAD-6BC8CCD5781D}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_BUZZES" ID="{F91D3A51-F9F4-4610-B9BA-EEB055C9068A}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_BUZZES" ID="{610C1DE4-607E-4902-8CD7-371382EF9D54}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_OUTLET" ID="{B4175DA0-1752-4914-BA05-E31B5F028653}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_ROOTS" ID="{4A268D04-9D4A-49D5-B6F5-96FC13E8554A}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GameStart" ID="{B7C03BA7-1308-4AB4-9665-1C255A3D11D7}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Stop_FLOOR" ID="{88F1A79B-2F14-4BF7-A31F-FE1629347AE3}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_GRAVEYARD" ID="{1A9C4A87-8483-4CD7-8EE9-308D86BFA767}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Test" ID="{5A178839-2736-4D33-AF25-D7425B638C67}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_FLOOR" ID="{4F84BC05-D082-4F6E-937F-CCCC8CB15A2E}" WorkUnitID="{218D3448-1928-4749-B11D-61CEEEBFA0E5}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
