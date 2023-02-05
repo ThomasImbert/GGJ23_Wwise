@@ -14,9 +14,11 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_FLOOR = 1473554808U;
+        static const AkUniqueID PLAY_GRAVEYARD = 315336149U;
         static const AkUniqueID PLAY_ROOTS = 2135754993U;
         static const AkUniqueID PLAY_TEST = 3187507146U;
         static const AkUniqueID STOP_FLOOR = 3605768394U;
+        static const AkUniqueID STOP_GRAVEYARD = 505928471U;
         static const AkUniqueID STOP_ROOTS = 4220051187U;
     } // namespace EVENTS
 
@@ -29,11 +31,14 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID DEFAULT = 782826392U;
+                static const AkUniqueID EIGHT_OUTLET = 3430678834U;
                 static const AkUniqueID FIFTH_OUTLET = 2221782172U;
                 static const AkUniqueID FIRST_OUTLET = 296419799U;
                 static const AkUniqueID FOURTH_OUTLET = 1573921923U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID SECOND_OUTLET = 1645992811U;
+                static const AkUniqueID SEVENTH_OUTLET = 3791539724U;
+                static const AkUniqueID SIXTH_OUTLET = 3663346869U;
                 static const AkUniqueID THIRD_OUTLET = 1460986192U;
             } // namespace STATE
         } // namespace MUSIC_STATE
