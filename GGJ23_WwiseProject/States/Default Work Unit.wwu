@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A8567A05-5EA1-4161-BD6E-DA6AA62586F4}" SchemaVersion="110">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{A8567A05-5EA1-4161-BD6E-DA6AA62586F4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A8567A05-5EA1-4161-BD6E-DA6AA62586F4}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{4023FE34-C575-42C0-9FB5-393E256E041F}"/>
+						<State Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+						<State Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+						<State Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+						<State Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+						<State Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+						<State Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+							<EndState Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+							<Time>0.1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+							<EndState Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+							<Time>0.1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+							<EndState Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+							<Time>0.1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+							<EndState Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+							<Time>0.1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+							<EndState Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+							<Time>0.1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

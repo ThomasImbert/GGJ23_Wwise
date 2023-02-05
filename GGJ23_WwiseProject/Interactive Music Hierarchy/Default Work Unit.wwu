@@ -48,7 +48,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{EDE821B0-C3F7-402A-ABB3-1CF04170417D}">
+												<AudioFileSource Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS" ID="{EDE821B0-C3F7-402A-ABB3-1CF04170417D}">
 													<Language>SFX</Language>
 													<AudioFile>ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS .wav</AudioFile>
 													<MediaIDList>
@@ -56,6 +56,51 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{9DD9149F-5914-4C87-9CBF-4EB420CFFE1F}" ShortID="574844728">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{EF290E5C-506A-4AE9-8B50-6FDF461F664E}" ShortID="438604043"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{6F4BB3F2-1981-4D59-927F-7DE8E4B40144}" ShortID="548474953"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{62A74AB6-EC6A-4F36-AA7E-100071226D7A}" ShortID="1016080247"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{B8FF63A0-8842-474C-BB12-A25EA2421CAB}" ShortID="781469570">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{5C307C8F-EFA3-4C9B-B369-DFE115AF7256}" ShortID="359545654">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{5BEBCFAB-572C-4F19-BB66-25E9CFA48C8B}">
 													<PropertyList>
@@ -79,7 +124,7 @@
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{EDE821B0-C3F7-402A-ABB3-1CF04170417D}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS" ID="{EDE821B0-C3F7-402A-ABB3-1CF04170417D}"/>
 																					<PropertyCurveList>
 																						<PropertyCurve PropertyName="Highpass">
 																							<Curve Name="" ID="{3D1712E4-E652-44BC-9BD7-1CBE0A9FD957}">
@@ -152,7 +197,7 @@
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS " ID="{EDE821B0-C3F7-402A-ABB3-1CF04170417D}"/>
+																					<AudioSourceRef Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM BASS" ID="{EDE821B0-C3F7-402A-ABB3-1CF04170417D}"/>
 																					<PropertyCurveList>
 																						<PropertyCurve PropertyName="Highpass">
 																							<Curve Name="" ID="{0FCB197E-E9D9-4D26-B644-50D8F624FD9D}">
@@ -238,6 +283,51 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{7740E4F6-C684-4768-A467-A5DE24DB9A0E}" ShortID="766374286">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{653C75A1-2C1C-4465-8819-7D768232F939}" ShortID="910133646"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{7CDDA585-2CCE-4218-B2EF-A4BBFA4AA0CD}" ShortID="739694458"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{62A8CE1F-A892-41FD-BFAA-FD9F82CF0EC2}" ShortID="949408371"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{F53AA85A-9D4E-4DF0-A7C8-4DA2868669F0}" ShortID="1005091053">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{5AD3546C-50D4-4B82-B557-AF3F4C2BA606}" ShortID="749520152">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{25C62D7D-0791-414B-8428-8D76687457DA}">
 													<PropertyList>
@@ -420,6 +510,55 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{D6B589F5-03F6-4CBA-8978-BDC8527DFCA3}" ShortID="864005436">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{FB657F26-479C-42D2-9485-772B49FADB8B}" ShortID="322220235">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{9FDA3E67-4533-4418-8B51-86C7B979D6FE}" ShortID="122254413"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{856BA789-F05D-4532-9D2B-547C4257B913}" ShortID="392785807"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{105A8494-B369-41CE-82FC-8F4D2C2A7970}" ShortID="87670073">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{938196B1-0AD0-4A68-8C4D-C5D5DB0FA703}" ShortID="492017671">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{26864E25-FFE8-4848-93D5-9B2E4FFB11FE}">
 													<PropertyList>
@@ -439,7 +578,7 @@
 																			<Local>
 																				<MusicClip Name="ROOTS ON THE ROOF - PA - 83 BPM - STEM KOKOTT" ID="{65C3B5B7-1A98-47D5-8503-DB818B8915B2}">
 																					<PropertyList>
-																						<Property Name="BeginTrimOffset" Type="Real64" Value="49879.5180722891"/>
+																						<Property Name="BeginTrimOffset" Type="Real64" Value="23132.5301204819"/>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="78795.1807228916"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																						<Property Name="PlayAt" Type="Real64" Value="-23132.5301204819"/>
@@ -453,7 +592,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>49.87952</XPos>
+																										<XPos>23.13253</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -472,43 +611,38 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>49.87952</XPos>
-																										<YPos>61.69722</YPos>
+																										<XPos>23.13253</XPos>
+																										<YPos>31.0443</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>51.23301</XPos>
-																										<YPos>63.70753</YPos>
+																										<XPos>53.0165</XPos>
+																										<YPos>31.04422</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>53.07239</XPos>
-																										<YPos>67.33677</YPos>
+																										<XPos>54.78063</XPos>
+																										<YPos>51.00519</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>54.66884</XPos>
-																										<YPos>56.44903</YPos>
-																										<Flags>0</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>58.00052</XPos>
-																										<YPos>74.59527</YPos>
+																										<XPos>58.05641</XPos>
+																										<YPos>58.26357</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
 																										<XPos>60.22166</XPos>
-																										<YPos>58.26366</YPos>
+																										<YPos>49.1905</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
 																										<XPos>62.30397</XPos>
-																										<YPos>61.8929</YPos>
+																										<YPos>38.30275</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
-																										<XPos>65.73978</XPos>
-																										<YPos>49.19054</YPos>
+																										<XPos>65.5721</XPos>
+																										<YPos>25.60047</YPos>
 																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
@@ -531,7 +665,7 @@
 																								</PropertyList>
 																								<PointList>
 																									<Point>
-																										<XPos>49.87952</XPos>
+																										<XPos>23.13253</XPos>
 																										<YPos>0</YPos>
 																										<Flags>5</Flags>
 																									</Point>
@@ -570,11 +704,66 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{E85755D8-4538-48A8-A4C5-B8FC6C220AE1}" ShortID="706881370"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{FFDCD919-6271-43B9-A8EC-7FBFEBC190F2}" ShortID="356689677"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{D3FBF239-926E-45DD-9117-3346AA086E46}" ShortID="463854581"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{0DFA6A84-6AE7-4094-8226-932AAF3C78D1}" ShortID="483795380"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{90889F16-8E1D-4003-9D87-77A30471BC2F}" ShortID="97306500">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16" Value="-6"/>
+																<Property Name="Lowpass" Type="int16" Value="44"/>
+																<Property Name="Volume" Type="Real64" Value="6"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{19D89440-5EB7-4122-8AD2-FF03BF30CA9A}" ShortID="458685777"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{B50CF125-C413-47E9-B0DD-C14CDC615881}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
+													<ChildrenList>
+														<MusicTransition Name="Transition" ID="{DBCCEEC2-0D5D-4CB1-9D06-C05A17F6D502}">
+															<PropertyList>
+																<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+															</PropertyList>
+															<TransitionInfo>
+																<SourceFadeOut>
+																	<MusicFade Name="Source Fade-out" ID="{6A77E75B-92F6-4E3B-9893-C764239D0782}">
+																		<PropertyList>
+																			<Property Name="FadeType" Type="int16" Value="1"/>
+																		</PropertyList>
+																	</MusicFade>
+																</SourceFadeOut>
+															</TransitionInfo>
+														</MusicTransition>
+													</ChildrenList>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -622,18 +811,8 @@
 																								<PointList>
 																									<Point>
 																										<XPos>0</XPos>
-																										<YPos>38.1071</YPos>
+																										<YPos>0</YPos>
 																										<Flags>5</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>17.00553</XPos>
-																										<YPos>36.48817</YPos>
-																										<Flags>0</Flags>
-																									</Point>
-																									<Point>
-																										<XPos>20.64958</XPos>
-																										<YPos>31.0443</YPos>
-																										<Flags>0</Flags>
 																									</Point>
 																									<Point>
 																										<XPos>26.0241</XPos>
@@ -705,7 +884,7 @@
 																								<PointList>
 																									<Point>
 																										<XPos>48.43373</XPos>
-																										<YPos>0</YPos>
+																										<YPos>-1.81462</YPos>
 																										<Flags>5</Flags>
 																									</Point>
 																									<Point>
@@ -741,6 +920,7 @@
 																		</Reference>
 																	</ObjectList>
 																</ObjectLists>
+																<ReferenceList/>
 															</MusicTrackSequence>
 														</Local>
 													</Reference>
@@ -762,6 +942,43 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{3151E350-2066-4578-AD6B-E9D824510A22}" ShortID="811371573"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{E057A303-5A34-4A86-B617-867E919FF03D}" ShortID="675063891"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{1B551243-4FAF-4FBE-AFBD-6BAB593F17BB}" ShortID="541839137"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{AF6F0993-6780-472A-A8FC-AEB230075107}" ShortID="353462734"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{119A96F9-AD26-4BA4-8FD0-729E42176ED7}" ShortID="431464517">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{4592F3AB-719E-46B6-BD57-FE85526D3250}" ShortID="868307432"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{B559DED7-3E38-4CAB-9C3B-BA478E7D0831}">
 													<PropertyList>
@@ -944,6 +1161,47 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{4F4ABA2B-6151-4129-8B37-3D3AA0F34879}" ShortID="1055993843"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{A2D653D6-1A17-49F5-AA12-4E47AC17A4BC}" ShortID="990557001"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{14E865E6-4A9F-4CDD-95E8-4FE944028BD4}" ShortID="105446782"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{E65E4A43-B0C1-49E4-9E89-9F04E1240359}" ShortID="654240948"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{83396334-D392-4CF6-855F-70F241360BDF}" ShortID="211254203">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{BBCE42D2-09C2-4A46-B62F-791993610723}" ShortID="779303979">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{F0B4A7F1-0185-42D3-98A1-AC86D2CD7BC8}">
 													<PropertyList>
@@ -1112,6 +1370,43 @@
 											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+												<CustomState Name="" ID="{88DC935A-E3B5-486E-9D2F-A22B1B1C8BD4}" ShortID="904861933"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+												<CustomState Name="" ID="{BF9D778A-0FCF-4110-A867-B4DA245E0B98}" ShortID="552721585"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+												<CustomState Name="" ID="{1F0B422D-7CC2-45ED-8BE4-3AACECFD6AA6}" ShortID="54069774"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+												<CustomState Name="" ID="{8580EB72-B8E6-4A08-940E-4AEFDB630A62}" ShortID="1060035369">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+												<CustomState Name="" ID="{2C3E4EBB-2253-4E86-9641-B0C7F5148026}" ShortID="601355937"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+												<CustomState Name="" ID="{61CC1366-D0A5-4562-B177-137F284BE208}" ShortID="117304677"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists>
 										<ObjectList Name="Cues">
 											<Reference>
@@ -1149,7 +1444,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS " ID="{CBDFCA70-F355-4196-A2DF-B7E39C385697}" ShortID="937941783">
+										<MusicTrack Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM BASS" ID="{CBDFCA70-F355-4196-A2DF-B7E39C385697}" ShortID="937941783">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
@@ -1171,6 +1466,51 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{DA2E418F-F35F-4B6C-9CB6-974AAB1D4C3C}" ShortID="182249929">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{FD2F6F1E-16D2-4A0E-9986-71289BBB05E8}" ShortID="917096510"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{7E792830-FFEE-4BEE-A540-54BE8D16FACC}" ShortID="371607692"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{04A91DB8-4F1B-46F9-A509-1247D63CBEC1}" ShortID="823415742"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{188106B4-6BEE-4CC3-AF33-48F05707A16A}" ShortID="499443488">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{786C2D2D-00C6-4F26-BECC-C7F3CD5BA989}" ShortID="720476882">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{44B88C5D-DEC5-429E-AC87-22F397D3070C}">
 													<PropertyList>
@@ -1338,7 +1678,7 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
-										<MusicTrack Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR " ID="{045ACB0A-B433-4547-B563-9A3810EB6695}" ShortID="446022602">
+										<MusicTrack Name="ROOTS ON THE ROOF - PB - 83 BPM - STEM GTR" ID="{045ACB0A-B433-4547-B563-9A3810EB6695}" ShortID="446022602">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{46F3FC6C-181F-4973-8F8F-8B92B640ECF5}"/>
@@ -1360,6 +1700,55 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{C27DDE6B-1610-44A4-81C0-D312259A938B}" ShortID="155995389">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{76C27C6F-278A-421D-808B-C8FC746C672A}" ShortID="1045440506">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{80D22307-AAA5-4F30-8E98-EF413E166201}" ShortID="776618279"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{85C58CA0-3F36-4BB9-98C3-08E4B61D93DA}" ShortID="947425290"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{68F1C69B-F335-4D1F-9E7C-02940B6A80BD}" ShortID="393571030">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{1BB51D30-C3A0-47E6-84B7-4CDE6BDE00DE}" ShortID="390761922">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{CB2BBAF7-91D9-4C85-9C74-1138F89974EA}">
 													<PropertyList>
@@ -1549,6 +1938,51 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{B9234DF1-FE19-4DBD-8E8A-32D7A0888FAB}" ShortID="829003277">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{215FD711-FCF9-44A5-A80F-01E4128D1C8E}" ShortID="1014723558"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{3BAD0502-3DE2-41D1-A318-D9622C84FA93}" ShortID="399919741"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{31583EDF-681E-45E4-AC5B-ABE96620B7FE}" ShortID="472580030"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{B9AD8573-BA89-4A50-B43B-EC8FF3B20BB5}" ShortID="995185798">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{18D61D26-CD04-4ACA-B900-B1102797711A}" ShortID="549686655">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{199D9231-318F-4A81-9873-A49828CD0C3E}">
 													<PropertyList>
@@ -1788,6 +2222,45 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{E53EF776-1EA7-46BA-97CB-2440A4DFBE63}" ShortID="773413064"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{0BE94997-5E53-4CF9-857A-3BE76DDBE8D5}" ShortID="269085851"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{8F79F43F-C185-4066-98D4-D3C73705A985}" ShortID="962247474"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{DB773135-BAB4-4CDD-9304-22713573E5AB}" ShortID="119029423"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{54930AF4-E14C-41C9-9F45-438B699903EE}" ShortID="199399106">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16" Value="-6"/>
+																<Property Name="Lowpass" Type="int16" Value="44"/>
+																<Property Name="Volume" Type="Real64" Value="6"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{F1136820-5AFB-470A-90CB-F4E49CCB8AD9}" ShortID="799342059"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{9FBBC1EB-00B4-4CAD-942B-70E6F8219746}">
 													<PropertyList>
@@ -1977,6 +2450,43 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{C6BB78C0-E567-47D5-96C4-7EB6BC3CDED1}" ShortID="458793624"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{E4E8102E-861A-4E1C-8887-B08ACDFC4C66}" ShortID="109304215"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{9724CD47-8658-453D-91DB-7615D9D0E80F}" ShortID="999894464"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{0E2123EE-01AC-4931-B088-665E16E24702}" ShortID="762995934"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{F515E5B5-4BB1-4E25-A5D1-846FAB31395F}" ShortID="75453622">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{57D87E6D-C32F-4C51-9AFD-4425A541C668}" ShortID="783653097"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{83C2FA07-5049-4372-980B-1EDC9F0D5035}">
 													<PropertyList>
@@ -2166,6 +2676,47 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{10BAB951-48E9-4FE4-83F5-B9711DE31A81}" ShortID="903420584"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{0FBC2C9B-2EE3-4F7B-9B02-2AA37EC1528D}" ShortID="525763495"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{8879B390-43CD-47BF-BC04-3E9BE9CE5911}" ShortID="242925460"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{2640B23B-ACCE-4ECD-8CCC-2DABEE40ABAE}" ShortID="613219071"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{C880759F-A028-4427-B159-0BFD7C5D801E}" ShortID="722187969">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{E2FD74CA-DD78-4221-AEF4-15E09BDEC6CA}" ShortID="252823834">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{9E009761-49CA-4CC0-9BA0-8DF0F372A4AB}">
 													<PropertyList>
@@ -2334,6 +2885,43 @@
 											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+												<CustomState Name="" ID="{5843640D-C7C5-4241-AB59-1C1A34C82267}" ShortID="493991963"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+												<CustomState Name="" ID="{76238AB2-B92C-47F8-A39E-2C4E947B273D}" ShortID="972330364"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+												<CustomState Name="" ID="{A708DB12-5E0F-46D4-896E-B95953FDD0C6}" ShortID="1041513253"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+												<CustomState Name="" ID="{0A81CEA9-4FAE-4298-A552-F80A8A42A6D9}" ShortID="765309792">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+												<CustomState Name="" ID="{EC542644-3FAC-41B2-B376-30124C792A05}" ShortID="877652448"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+												<CustomState Name="" ID="{7006BA74-A519-46F0-BAC3-9A0C21ACB67C}" ShortID="723924522"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists>
 										<ObjectList Name="Cues">
 											<Reference>
@@ -2386,6 +2974,55 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{8E05F407-143A-46FC-8A5E-2C2329CF3AD6}" ShortID="305304384">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{BCF65624-FC8E-4B9A-8B8E-85EC83027EE7}" ShortID="114201926"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{B423D1F1-9AB6-4F62-9E3F-7A98E2701A0C}" ShortID="799370459">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{A306686C-FD36-4776-8C82-A639014EDD6F}" ShortID="816466406"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{ADD96BB8-BB1A-4CB1-904C-B2AD7A757509}" ShortID="1055299594">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{783BD64F-5747-40F5-906D-2135E420B951}" ShortID="489473055">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{CC1E7DB7-1F57-4537-91B1-C5D19F4E58A9}">
 													<PropertyList>
@@ -2568,6 +3205,51 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{987A5138-DED2-4565-9A47-C30D977F7082}" ShortID="95602386">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{7A4D9D7C-073C-47F9-BD57-CC767863F4F1}" ShortID="357604283"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{EE5DC7AB-EF29-45A9-97A7-FC947B8AC391}" ShortID="149281030"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{AAC79980-4726-4995-A387-53333986BC35}" ShortID="381456382"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{1F860CD1-32D5-45C0-B347-4A6A617F7E84}" ShortID="306639856">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{EE536643-228B-421C-8037-856402275380}" ShortID="466110512">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{34181E89-36DB-4CB3-86F4-D71C7122C595}">
 													<PropertyList>
@@ -2750,6 +3432,51 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{8007AC3D-A66B-43C4-8627-D34031228A8A}" ShortID="750889100">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{874C76D4-FFB7-4E70-B838-EDA7E68B9AF2}" ShortID="139220427"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{21900FC6-0203-4544-B74E-08833E5080AD}" ShortID="347170787"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{08A7D33E-660B-413D-B191-355E235C2E7D}" ShortID="920471456"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{44B194DA-BF0F-4EEB-85E9-A9002A99D201}" ShortID="1043351339">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{76AF7B20-B9B4-4CD1-981B-9797C1D498E3}" ShortID="111225320">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{B508D297-AD27-4873-A67C-FFE589A373CA}">
 													<PropertyList>
@@ -2997,6 +3724,45 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{AC89E7AB-7004-44CA-83E7-C3A1E4EB6147}" ShortID="946139961"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{7C8E1D1B-7250-4B6D-BEB8-E12D5977EE86}" ShortID="902854689"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{DBFE6215-0418-45F9-9A5B-525690753D5F}" ShortID="48415557"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{49223B31-18A9-49BF-A5DF-A0340EE9B192}" ShortID="560129923"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{598B9C67-C84C-470D-9918-E4E3C69590B6}" ShortID="220003015">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16" Value="-6"/>
+																<Property Name="Lowpass" Type="int16" Value="45"/>
+																<Property Name="Volume" Type="Real64" Value="6"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{900BDCF9-F4F5-4D9C-AE80-3741DE7873A5}" ShortID="590274692"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{792CC0A1-2F07-4C22-9261-2912CE5E2632}">
 													<PropertyList>
@@ -3179,6 +3945,43 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{E7759F8F-73D8-4A10-8774-D42696EA211F}" ShortID="590121790"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{6F35804F-0A9B-4665-9670-F3D9CE8B3D7B}" ShortID="74262873"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{C00DCA0E-99D2-46D7-96FA-519146EEC424}" ShortID="965587140"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{3925734D-F4E6-48F2-95C6-C09807F4060B}" ShortID="501613623"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{06D249E5-D6CE-4406-8F5A-1AC305B96A11}" ShortID="438181999">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{DADB8224-277F-40B9-8A3E-5F75B392DC3B}" ShortID="1027827857"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{72661465-A554-45CA-B072-9B4071D7C4CF}">
 													<PropertyList>
@@ -3361,6 +4164,47 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="2">
+														<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+														<CustomState Name="" ID="{713EAC1B-D0FB-4008-8B4C-EE05F72DA9DE}" ShortID="500071274"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+														<CustomState Name="" ID="{0717730D-E3C3-4185-862D-0787FD119185}" ShortID="404506140"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+														<CustomState Name="" ID="{0906ED6E-CF5D-4FBE-BA1A-69CC7A722C20}" ShortID="914538191"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+														<CustomState Name="" ID="{F13C7A4E-83DB-46C9-B2BA-5625EBEAA0DD}" ShortID="262714922"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+														<CustomState Name="" ID="{D3728D48-CBC8-4FF5-A074-CE53251A14F7}" ShortID="333158000">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+														<CustomState Name="" ID="{172750CC-7EB0-4787-84A8-48F6F9ACC514}" ShortID="56021032">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{C6DEFA17-5224-4B7D-B4C3-E521333900C4}">
 													<PropertyList>
@@ -3529,6 +4373,43 @@
 											</ObjectLists>
 										</MusicTrack>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+												<CustomState Name="" ID="{145D694E-F481-4088-96B6-A60ECA39DE28}" ShortID="996546630"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+												<CustomState Name="" ID="{65782F1D-41E9-463F-B6EF-D62473A8C007}" ShortID="212063431"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+												<CustomState Name="" ID="{488BBC29-46EE-4964-8C05-E92D7D490A5B}" ShortID="868498930"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+												<CustomState Name="" ID="{2365BDE2-7ADD-40DC-B9BB-C7DE9BB0BF76}" ShortID="446773443">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+												<CustomState Name="" ID="{45B730FE-C907-4743-BD9F-712448D567A8}" ShortID="169160604"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+												<CustomState Name="" ID="{43E79565-B670-4AE1-9ECF-2CA26DBE6D6D}" ShortID="391543129"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists>
 										<ObjectList Name="Cues">
 											<Reference>
@@ -3931,6 +4812,59 @@
 									</ObjectLists>
 								</MusicSegment>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Second_Outlet" ID="{CA1810DE-F92D-439B-B81C-C5BF5249EDF1}"/>
+										<CustomState Name="" ID="{DE2217CB-7B30-4656-988E-50E569CE9429}" ShortID="937291834">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Third_Outlet" ID="{1457C44C-C8FA-4770-A92B-B01A14D2975D}"/>
+										<CustomState Name="" ID="{AB14A45F-8E1A-4B57-8C5B-5D453AEF1933}" ShortID="141381106">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Fourth_Outlet" ID="{C57490A7-4001-487A-85EF-0CF6E260E3F6}"/>
+										<CustomState Name="" ID="{6DB90148-4310-49E2-9B7A-733E7A7D3F14}" ShortID="306427266">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+										<CustomState Name="" ID="{1EFC1062-32C1-43EC-AC7D-F85395DF3362}" ShortID="227509651"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+										<CustomState Name="" ID="{87AFEECE-DB45-4021-9457-8E61C789551D}" ShortID="639272520">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="First_Outlet" ID="{0FBDC8CA-4C40-4DDB-B933-AF94B83FBDE5}"/>
+										<CustomState Name="" ID="{EBDE0403-0DBF-4924-A283-52F199E0F055}" ShortID="720653496">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{41EAB869-DBF6-460E-A51F-3581C2E82583}">
 									<PropertyList>
@@ -3945,7 +4879,19 @@
 								</MusicTransition>
 							</TransitionList>
 							<Playlist>
-								<MusicPlaylistItem Name="" ID="{7D6F6D03-FB1A-44C1-8881-D22BB781CF57}" ShortID="789444852"/>
+								<MusicPlaylistItem Name="" ID="{7D6F6D03-FB1A-44C1-8881-D22BB781CF57}" ShortID="789444852">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{B96646F3-E38C-4756-BBDE-1515A915E9E3}" ShortID="302211784">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="FLOORSCRAPER PA" ID="{FF67EE4B-9662-4959-A2AB-ABA035242172}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="ELECTRICAL OUTLET GRAVEYARD" ID="{3D4D26A0-D6BE-4A41-AF00-17C8C436AA36}" ShortID="460291468">
@@ -4179,10 +5125,66 @@
 								<MusicTransition Name="Transition" ID="{1C29E7D9-7D3D-460C-AEFB-93DB41612F23}">
 									<TransitionInfo/>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{762BDFDD-4723-4B02-9679-2072C1355492}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="FLOORSCRAPER" ID="{7968DC70-3CD7-480F-ABFC-53DDC997F2D1}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="ROOTS ON THE ROOF" ID="{38E3FB4D-99D8-418F-85C1-55A621B8A4D8}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{DE748999-4349-401A-88FC-31799713FC2D}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{AD43D3D9-3D26-4B91-886B-766A1E1BF113}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Music_State" ID="{CCC35295-7C12-4F7F-8385-77016961B011}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Default" ID="{D75D3D21-2395-4CBD-BA7F-B661CD716449}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="ROOTS ON THE ROOF" ID="{38E3FB4D-99D8-418F-85C1-55A621B8A4D8}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Fifth_Outlet" ID="{6A429643-5B4C-4930-B1F9-D20880960263}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="FLOORSCRAPER" ID="{7968DC70-3CD7-480F-ABFC-53DDC997F2D1}" WorkUnitID="{F58A958D-E061-4D33-BECA-74BEB8012CA3}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
